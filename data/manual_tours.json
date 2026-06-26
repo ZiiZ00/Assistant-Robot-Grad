@@ -1,0 +1,12 @@
+{
+  "tours": {
+    "short": {
+      "name": {"en": "Short Tour", "ar": "جولة قصيرة"},
+      "artifact_ids": ["ramses_ii_statue", "tutankhamun_mask", "king_khufu"]
+    },
+    "long": {
+      "name": {"en": "Long Tour", "ar": "جولة طويلة"},
+      "artifact_ids": ["ramses_ii_statue", "tutankhamun_mask", "king_khufu"]
+    }
+  }
+}

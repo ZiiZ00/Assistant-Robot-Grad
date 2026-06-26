@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.agents/
+.codex/
+
+NLP1.1/.venv/
+venv/
+.venv/
+
+test_mic.wav
+data/feedback/*.xlsx

@@ -1,0 +1,10 @@
+openpyxl>=3.1,<4
+pyserial>=3.5,<4
+arabic-reshaper>=3.0
+python-bidi>=0.4.2
+python-dotenv>=1.0.0
+
+# Optional hardware/speech packages (install only when needed):
+# pyttsx3>=2.90
+# vosk>=0.3.45
+# PyAudio>=0.2.14

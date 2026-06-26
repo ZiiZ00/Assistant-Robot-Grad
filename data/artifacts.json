@@ -1,0 +1,28 @@
+{
+  "artifacts": [
+    {
+      "id": "ramses_ii_statue",
+      "name": {"en": "Statue of Ramesses II", "ar": "تمثال رمسيس الثاني"},
+      "explanation": {
+        "en": "This statue represents King Ramesses II wearing the white crown of Upper Egypt. It is named “Ramesses Meryamun, Great of Monuments” on its belt buckle. Many statues of Ramesses II were given their own names. The statue dates from the middle years of Ramesses II’s reign. His daughters, Princesses Merytamun and Bintanath, are shown by his legs. The statue belongs to the New Kingdom, Dynasty 19, reign of Ramesses II, about 1279–1213 BC. It is made of quartzite and comes from the Great Temple of Amun at Tanis, San el-Hagar.",
+        "ar": "يصور هذا التمثال الملك رمسيس الثاني مرتديًا التاج الأبيض لمصر العليا. وقد أُطلق على التمثال اسم «رمسيس مري آمون، عظيم الآثار» كما هو منقوش على حزامه. كانت العديد من تماثيل رمسيس الثاني تُمنح أسماء خاصة بها. يرجع هذا التمثال إلى منتصف فترة حكم رمسيس الثاني، وتظهر ابنتاه الأميرتان مريت آمون وبنت عنات بجوار ساقيه. ينتمي التمثال إلى الدولة الحديثة، الأسرة التاسعة عشرة، عهد رمسيس الثاني حوالي 1279–1213 قبل الميلاد. وهو مصنوع من الكوارتزيت، وجاء من المعبد الكبير للإله آمون في تانيس، صان الحجر."
+      }
+    },
+    {
+      "id": "tutankhamun_mask",
+      "name": {"en": "Golden Mask of Tutankhamun", "ar": "القناع الذهبي لتوت عنخ آمون"},
+      "explanation": {
+        "en": "Tutankhamun was a young king of ancient Egypt’s Eighteenth Dynasty. He ruled during the New Kingdom, around 1332–1323 BC. He became world-famous because his tomb, KV62 in the Valley of the Kings, was discovered almost intact by Howard Carter in 1922. Tutankhamun’s golden funerary mask is one of the most famous objects from ancient Egypt. It was placed over the king’s mummy and represents the king’s divine identity in the afterlife. The mask is made mainly of gold and decorated with colored glass and semi-precious stones, including deep blue details that imitate lapis lazuli. The nemes headdress, royal beard, cobra, and vulture symbols show kingship, protection, and divine power.",
+        "ar": "كان توت عنخ آمون ملكًا شابًا من ملوك الأسرة الثامنة عشرة في مصر القديمة. حكم خلال عصر الدولة الحديثة حوالي 1332–1323 قبل الميلاد. أصبح مشهورًا عالميًا لأن مقبرته KV62 في وادي الملوك اكتشفها هوارد كارتر عام 1922 وهي شبه كاملة. يُعد القناع الذهبي لتوت عنخ آمون من أشهر آثار مصر القديمة. وُضع القناع فوق مومياء الملك، وكان يرمز إلى هويته الملكية والإلهية في العالم الآخر. صُنع القناع أساسًا من الذهب وزُخرف بالزجاج الملون والأحجار شبه الكريمة، مع تفاصيل زرقاء تشبه حجر اللازورد. ويظهر غطاء الرأس الملكي واللحية والصل الملكي والنسر رموزًا للملكية والحماية والقوة الإلهية."
+      }
+    },
+    {
+      "id": "king_khufu",
+      "name": {"en": "King Khufu", "ar": "الملك خوفو"},
+      "explanation": {
+        "en": "King Khufu was a powerful king of ancient Egypt’s Fourth Dynasty during the Old Kingdom. He ruled around 2589–2566 BC and is best known as the builder of the Great Pyramid of Giza, the largest pyramid in Egypt. Khufu was the son of King Sneferu and is also known by the Greek name Cheops. The Great Pyramid was built as his royal tomb and became one of the most famous monuments in the world. Khufu’s reign shows the strength of the ancient Egyptian state, its engineering knowledge, and its ability to organize thousands of workers for a massive royal project. Although the Great Pyramid is enormous, very few statues of Khufu survive, which makes objects connected to him especially important.",
+        "ar": "كان الملك خوفو من أقوى ملوك الأسرة الرابعة في عصر الدولة القديمة. حكم حوالي 2589–2566 قبل الميلاد، واشتهر بأنه صاحب الهرم الأكبر بالجيزة، وهو أكبر أهرامات مصر. كان خوفو ابن الملك سنفرو، ويُعرف أيضًا بالاسم اليوناني خوفوس أو كيوبس. بُني الهرم الأكبر ليكون مقبرته الملكية، وأصبح من أشهر آثار العالم. يعكس عهد خوفو قوة الدولة المصرية القديمة، ومعرفتها الهندسية، وقدرتها على تنظيم آلاف العمال لتنفيذ مشروع ملكي ضخم. وعلى الرغم من ضخامة الهرم الأكبر، فإن التماثيل الباقية لخوفو قليلة جدًا، لذلك تُعد الآثار المرتبطة به ذات أهمية كبيرة."
+      }
+    }
+  ]
+}

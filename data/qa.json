@@ -1,0 +1,56 @@
+{
+  "ramses_ii_statue": {
+    "en": [
+      {"questions": ["who is this statue", "who does this statue represent", "who was ramses ii", "tell me about ramses ii", "what is this statue"], "answer": "This statue represents King Ramesses II, one of Egypt’s most famous kings. He is shown wearing the white crown of Upper Egypt. The statue dates to the middle years of his reign during Dynasty 19, around 1279–1213 BC."},
+      {"questions": ["what crown is ramses wearing", "what is the white crown", "why is he wearing the white crown", "which crown is on his head"], "answer": "Ramesses II is wearing the white crown of Upper Egypt. This crown symbolized royal authority over Upper Egypt and helped present the king as a powerful ruler."},
+      {"questions": ["what is written on the belt", "what is the name on the belt buckle", "what does the belt say", "what is the statue named"], "answer": "The belt buckle names the statue as “Ramesses Meryamun, Great of Monuments.” In ancient Egypt, many royal statues were given their own names, almost like living monuments."},
+      {"questions": ["who are the girls beside his legs", "who are the daughters near the statue", "who are merytamun and bintanath", "why are there small figures near his legs"], "answer": "The small figures by his legs represent his daughters, Princesses Merytamun and Bintanath. Their presence connects the statue to the royal family and emphasizes Ramesses II’s dynastic power."},
+      {"questions": ["what period is this statue from", "which dynasty is this statue from", "when was this statue made", "what is the date of the statue"], "answer": "The statue belongs to the New Kingdom, Dynasty 19, during the reign of Ramesses II, about 1279–1213 BC. It dates from the middle years of his reign."},
+      {"questions": ["what material is the statue made of", "is the statue made of stone", "what stone is this statue", "what is quartzite"], "answer": "The statue is made of quartzite, a hard and durable stone. This material helped the statue survive for thousands of years."},
+      {"questions": ["where did this statue come from", "where was the statue found", "what temple did it come from", "where is tanis"], "answer": "The statue comes from the Great Temple of Amun at Tanis, also known as San el-Hagar. Tanis was an important ancient city in the northeastern Delta."}
+    ],
+    "ar": [
+      {"questions": ["من هو صاحب هذا التمثال", "هذا التمثال لمن", "من هو رمسيس الثاني", "حدثني عن رمسيس الثاني", "ما هو هذا التمثال"], "answer": "يمثل هذا التمثال الملك رمسيس الثاني، أحد أشهر ملوك مصر القديمة. يظهر مرتديًا التاج الأبيض لمصر العليا، ويرجع التمثال إلى منتصف فترة حكمه في الأسرة التاسعة عشرة، حوالي 1279–1213 قبل الميلاد."},
+      {"questions": ["ما هو التاج الذي يرتديه", "ما هو التاج الأبيض", "لماذا يرتدي التاج الأبيض", "ما معنى التاج على رأسه"], "answer": "يرتدي رمسيس الثاني التاج الأبيض لمصر العليا. وكان هذا التاج يرمز إلى السلطة الملكية على مصر العليا ويُظهر الملك كحاكم قوي."},
+      {"questions": ["ماذا مكتوب على الحزام", "ما الاسم الموجود على الحزام", "ما اسم التمثال", "ماذا يعني نقش الحزام"], "answer": "يحمل حزام التمثال اسم «رمسيس مري آمون، عظيم الآثار». وكانت بعض التماثيل الملكية في مصر القديمة تُمنح أسماء خاصة بها."},
+      {"questions": ["من هما الفتاتان بجوار ساقيه", "من هما الأميرتان بجوار التمثال", "من هي مريت آمون وبنت عنات", "لماذا توجد تماثيل صغيرة بجانب ساقيه"], "answer": "تظهر بجوار ساقي الملك ابنتاه الأميرتان مريت آمون وبنت عنات. وجودهما يربط التمثال بالعائلة الملكية ويؤكد قوة السلالة الحاكمة."},
+      {"questions": ["من أي عصر هذا التمثال", "من أي أسرة هذا التمثال", "متى صنع هذا التمثال", "ما تاريخ هذا التمثال"], "answer": "ينتمي التمثال إلى الدولة الحديثة، الأسرة التاسعة عشرة، خلال عهد رمسيس الثاني حوالي 1279–1213 قبل الميلاد، ويرجع إلى منتصف فترة حكمه."},
+      {"questions": ["مم صنع التمثال", "ما مادة التمثال", "هل التمثال من حجر", "ما هو الكوارتزيت"], "answer": "صُنع التمثال من حجر الكوارتزيت، وهو حجر صلب ومتين، ولذلك ساعد على بقاء التمثال لآلاف السنين."},
+      {"questions": ["من أين جاء التمثال", "أين عثر على التمثال", "من أي معبد جاء التمثال", "أين تقع تانيس"], "answer": "جاء التمثال من المعبد الكبير للإله آمون في تانيس، صان الحجر. وكانت تانيس مدينة مهمة في شمال شرق الدلتا."}
+    ]
+  },
+  "tutankhamun_mask": {
+    "en": [
+      {"questions": ["who was tutankhamun", "who is king tut", "tell me about tutankhamun", "why is tutankhamun famous"], "answer": "Tutankhamun was a young king of ancient Egypt’s Eighteenth Dynasty. He ruled during the New Kingdom, around 1332–1323 BC, and became world-famous after his nearly intact tomb was discovered in 1922."},
+      {"questions": ["why is the mask famous", "what makes the golden mask important", "tell me about the mask", "what is tutankhamun mask"], "answer": "Tutankhamun’s golden funerary mask is one of the most famous objects from ancient Egypt. It was placed over the king’s mummy and represented his royal and divine identity in the afterlife."},
+      {"questions": ["what is the mask made of", "is the mask made of gold", "what materials are in the mask", "what are the blue parts"], "answer": "The mask is made mainly of gold and decorated with colored glass and semi-precious stones. The deep blue details imitate lapis lazuli, a precious blue stone associated with royalty and divinity."},
+      {"questions": ["who discovered tutankhamun tomb", "when was tutankhamun tomb discovered", "where was the tomb found", "what is kv62"], "answer": "Tutankhamun’s tomb, known as KV62, was discovered in the Valley of the Kings by Howard Carter in 1922. The discovery was important because the tomb was found almost intact."},
+      {"questions": ["what do the cobra and vulture mean", "what are the symbols on the mask", "why are there animals on the mask", "what does the royal beard mean"], "answer": "The cobra and vulture on the mask are royal protective symbols of ancient Egypt. The royal beard and nemes headdress also show kingship and divine power."}
+    ],
+    "ar": [
+      {"questions": ["من هو توت عنخ آمون", "من هو الملك توت", "حدثني عن توت عنخ آمون", "لماذا توت عنخ آمون مشهور"], "answer": "كان توت عنخ آمون ملكًا شابًا من ملوك الأسرة الثامنة عشرة. حكم في عصر الدولة الحديثة حوالي 1332–1323 قبل الميلاد، واشتهر عالميًا بعد اكتشاف مقبرته شبه الكاملة عام 1922."},
+      {"questions": ["لماذا القناع مشهور", "ما أهمية القناع الذهبي", "حدثني عن القناع", "ما هو قناع توت عنخ آمون"], "answer": "يُعد القناع الذهبي لتوت عنخ آمون من أشهر آثار مصر القديمة. وُضع فوق مومياء الملك، وكان يرمز إلى هويته الملكية والإلهية في العالم الآخر."},
+      {"questions": ["مم صنع القناع", "هل القناع مصنوع من الذهب", "ما مواد القناع", "ما هي الأجزاء الزرقاء في القناع"], "answer": "صُنع القناع أساسًا من الذهب وزُخرف بالزجاج الملون والأحجار شبه الكريمة. أما التفاصيل الزرقاء فتشبه حجر اللازورد، وهو حجر ارتبط بالملكية والقداسة."},
+      {"questions": ["من اكتشف مقبرة توت عنخ آمون", "متى اكتشفت مقبرة توت عنخ آمون", "أين وجدت المقبرة", "ما هي مقبرة كي في 62"], "answer": "اكتشف هوارد كارتر مقبرة توت عنخ آمون، المعروفة باسم KV62، في وادي الملوك عام 1922. وكانت مهمة لأنها وُجدت شبه كاملة."},
+      {"questions": ["ما معنى الكوبرا والنسر", "ما الرموز الموجودة على القناع", "لماذا توجد حيوانات على القناع", "ما معنى اللحية الملكية"], "answer": "يرمز الصل الملكي والنسر إلى الحماية والسلطة الملكية في مصر القديمة. كما يدل غطاء الرأس الملكي واللحية على الملكية والقوة الإلهية."}
+    ]
+  },
+  "king_khufu": {
+    "en": [
+      {"questions": ["who was khufu", "who is king khufu", "tell me about khufu", "who was cheops"], "answer": "King Khufu was a powerful ruler of ancient Egypt’s Fourth Dynasty during the Old Kingdom. He ruled around 2589–2566 BC and is best known as the builder of the Great Pyramid of Giza."},
+      {"questions": ["what is khufu famous for", "why is khufu important", "what did khufu build", "who built the great pyramid"], "answer": "Khufu is famous for building the Great Pyramid of Giza, the largest pyramid in Egypt. It was built as his royal tomb and became one of the most famous monuments in the world."},
+      {"questions": ["what dynasty was khufu from", "when did khufu rule", "what period is khufu from", "was khufu old kingdom"], "answer": "Khufu belonged to the Fourth Dynasty of the Old Kingdom. He ruled around 2589–2566 BC, during one of the most important periods of pyramid building."},
+      {"questions": ["who was khufu father", "who is sneferu", "was khufu son of sneferu", "what is khufu family"], "answer": "Khufu was the son of King Sneferu, another important pyramid-building king. Khufu continued the royal tradition of large pyramid construction."},
+      {"questions": ["why is the great pyramid important", "what does the pyramid tell us", "how was the great pyramid built", "why was khufu pyramid so big"], "answer": "The Great Pyramid shows the engineering skill and organization of ancient Egypt. It required planning, mathematics, skilled workers, and strong state administration."},
+      {"questions": ["are there statues of khufu", "why are khufu statues rare", "do we have many statues of khufu", "what remains of khufu"], "answer": "Very few statues of Khufu survive, even though his pyramid is enormous. This makes objects connected to him especially important for understanding his reign."}
+    ],
+    "ar": [
+      {"questions": ["من هو خوفو", "من هو الملك خوفو", "حدثني عن خوفو", "من هو خوفوس"], "answer": "كان الملك خوفو من أقوى ملوك الأسرة الرابعة في عصر الدولة القديمة. حكم حوالي 2589–2566 قبل الميلاد، واشتهر بأنه صاحب الهرم الأكبر بالجيزة."},
+      {"questions": ["بماذا اشتهر خوفو", "لماذا خوفو مهم", "ماذا بنى خوفو", "من بنى الهرم الأكبر"], "answer": "اشتهر خوفو ببناء الهرم الأكبر بالجيزة، وهو أكبر أهرامات مصر. بُني الهرم ليكون مقبرته الملكية وأصبح من أشهر آثار العالم."},
+      {"questions": ["من أي أسرة خوفو", "متى حكم خوفو", "من أي عصر خوفو", "هل خوفو من الدولة القديمة"], "answer": "ينتمي خوفو إلى الأسرة الرابعة في عصر الدولة القديمة. حكم حوالي 2589–2566 قبل الميلاد، في فترة مهمة من تاريخ بناء الأهرامات."},
+      {"questions": ["من والد خوفو", "من هو سنفرو", "هل خوفو ابن سنفرو", "ما عائلة خوفو"], "answer": "كان خوفو ابن الملك سنفرو، وهو أيضًا من الملوك المهمين في بناء الأهرامات. واستكمل خوفو تقليد المشروعات الملكية الضخمة."},
+      {"questions": ["لماذا الهرم الأكبر مهم", "ماذا يخبرنا الهرم الأكبر", "كيف بني الهرم الأكبر", "لماذا هرم خوفو ضخم"], "answer": "يدل الهرم الأكبر على براعة المصريين القدماء في الهندسة والتنظيم. فقد احتاج إلى تخطيط وحسابات وعمال مهرة وإدارة قوية."},
+      {"questions": ["هل توجد تماثيل لخوفو", "لماذا تماثيل خوفو قليلة", "هل لدينا تماثيل كثيرة لخوفو", "ما الآثار الباقية لخوفو"], "answer": "التماثيل الباقية لخوفو قليلة جدًا رغم ضخامة هرمه. لذلك تُعد الآثار المرتبطة به مهمة جدًا لفهم عهده."}
+    ]
+  }
+}
