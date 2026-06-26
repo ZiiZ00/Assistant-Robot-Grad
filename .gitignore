@@ -8,10 +8,12 @@ __pycache__/
 
 .agents/
 .codex/
-
 NLP1.1/.venv/
 venv/
 .venv/
-
 test_mic.wav
 data/feedback/*.xlsx
+*_backup_*.py
+test_robot_*.wav
+hf_local_tts.py
+hf_tts_manager.py
