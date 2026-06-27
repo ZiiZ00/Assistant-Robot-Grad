@@ -14,6 +14,7 @@ from arabic_support import contains_arabic, shape_arabic_text
 from chatbot import LocalChatbot
 from feedback_storage import FeedbackStorage
 from gemini_client import GeminiClient
+from lightweight_rag_engine import LightweightRAGEngine
 from main import parse_args
 from museum_chatbot_engine import MuseumChatbotEngine
 from env_utils import get_env_first
@@ -93,6 +94,27 @@ class CoreTests(unittest.TestCase):
         self.assertTrue(engine.available)
         self.assertEqual(engine.detect_language("What is this statue?"), "en")
         self.assertEqual(engine.detect_language("ما هذا التمثال؟"), "ar")
+
+    def test_integrated_chatbot_can_force_lightweight_rag(self):
+        with patch.dict("os.environ", {"PLANB_LIGHT_RAG": "1"}, clear=False):
+            engine = MuseumChatbotEngine(ROOT / "NLP1.1")
+        self.assertTrue(engine.available)
+        self.assertFalse(engine.heavy_rag_available)
+        self.assertTrue(engine.lightweight_mode)
+
+    def test_lightweight_rag_reads_txt_and_retrieves_without_heavy_dependencies(self):
+        with tempfile.TemporaryDirectory() as directory:
+            data_dir = Path(directory) / "Data"
+            data_dir.mkdir()
+            (data_dir / "museum.txt").write_text(
+                "Ramses II was a powerful pharaoh of ancient Egypt. "
+                "The Tutankhamun mask is made of gold and precious stones. " * 20,
+                encoding="utf-8",
+            )
+            engine = LightweightRAGEngine(data_dir)
+            chunks = engine.retrieve("Who was Ramses II?", top_k=2)
+        self.assertTrue(chunks)
+        self.assertIn("Ramses II", chunks[0])
 
     def test_tour_uses_three_requested_artifact_ids(self):
         tours = json.loads((ROOT / "data/manual_tours.json").read_text(encoding="utf-8"))["tours"]

@@ -18,7 +18,7 @@ from face_animation import PharaohFace
 from feedback_storage import FeedbackStorage
 from logging_utils import safe_print
 from museum_chatbot_engine import MuseumChatbotEngine
-from hf_local_tts import generate_tts_file
+from speech import TextToSpeech
 
 
 class AppController:
@@ -45,6 +45,9 @@ class AppController:
             self._speech_token += 1
             process = self._tts_process
             self._tts_process = None
+
+        if hasattr(self, "tts"):
+            self.tts.stop()
 
         if process is not None and process.poll() is None:
             try:
@@ -93,8 +96,7 @@ class AppController:
 
     def _speak_with_hf_tts(self, text: str, done: Callable[[], None] | None = None) -> None:
         """
-        Generate and play speech using local Hugging Face MMS TTS.
-        It calls done() on the UI thread when speaking finishes.
+        Speak without blocking Tkinter and call done() on the UI thread.
         """
         text = (text or "").strip()
 
@@ -110,37 +112,8 @@ class AppController:
             return
 
         language = self.get_tts_language()
-
-        with self._tts_lock:
-            self._speech_token += 1
-            token = self._speech_token
-
-        safe_print(f"HF local TTS requested. language={language}")
-
-        def worker() -> None:
-            should_call_done = True
-
-            try:
-                audio_file = generate_tts_file(text, language=language)
-
-                with self._tts_lock:
-                    if token != self._speech_token:
-                        should_call_done = False
-                        return
-
-                self._play_audio_blocking(audio_file, token)
-
-            except Exception as exc:
-                safe_print(f"HF local TTS warning: {exc}")
-
-            finally:
-                with self._tts_lock:
-                    still_current = token == self._speech_token
-
-                if should_call_done and still_current and done:
-                    self.run_on_ui(done)
-
-        threading.Thread(target=worker, daemon=True).start()
+        safe_print(f"TTS requested. language={language}")
+        self.tts.speak(text, language, lambda: self.run_on_ui(done) if done else None)
 
     def __init__(self, root: tk.Tk, *, encoder_source: EncoderSource | None,
                  debug_arrived_button: bool, enable_tts: bool, enable_stt: bool,
@@ -156,6 +129,7 @@ class AppController:
         self.debug_arrived_button = debug_arrived_button
         self.enable_tts = enable_tts
         self.enable_stt = enable_stt
+        self.tts = TextToSpeech(enable_tts)
         self.mic_device_index = mic_device_index
         self.language = "en"
         self.tour_type = "short"
@@ -302,7 +276,7 @@ class AppController:
         self.face.set_speaking(True)
         current_screen = self._screen_id
 
-        safe_print("Artifact speech using Hugging Face local TTS")
+        safe_print("Artifact speech using local TTS fallback stack")
         self._speak_with_hf_tts(
             artifact["explanation"][self.language],
             lambda: self._explanation_done(current_screen)
@@ -484,7 +458,7 @@ class AppController:
         def done() -> None:
             self.run_on_ui(lambda: self._answer_done(screen_id))
 
-        safe_print("Chatbot answer speech using Hugging Face local TTS")
+        safe_print("Chatbot answer speech using local TTS fallback stack")
         self._speak_with_hf_tts(answer, done)
 
     def _answer_done(self, screen_id: int) -> None:

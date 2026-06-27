@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import base64
+import importlib.util
 import os
 import re
 import tempfile
@@ -9,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 from env_utils import get_env_first
+from lightweight_rag_engine import LightweightRAGEngine
 from logging_utils import safe_print
 from speech import SAMPLE_RATE, record_microphone
 
@@ -21,16 +23,44 @@ class MuseumChatbotEngine:
         self._vectordb: Any | None = None
         self._retriever: Any | None = None
         self._embeddings: Any | None = None
+        self._lightweight_rag: LightweightRAGEngine | None = None
+        self._force_lightweight = os.getenv("PLANB_LIGHT_RAG", "").strip().lower() in {"1", "true", "yes", "on"}
+        self._heavy_reason = "available"
+        self._heavy_available = self._detect_heavy_rag_available()
         safe_print(f"Added chatbot folder found: {self.chatbot_root}")
         for relative in ("backend.py", "rag_utils.py", "requirements.txt"):
             path = self.chatbot_root / relative
             if path.exists():
                 safe_print(f"Reading chatbot file: {path}")
         safe_print(f"Expected vectorstore path: {self.vectorstore_path}")
+        safe_print(f"Heavy RAG available: {self._heavy_available}")
+        if self._force_lightweight:
+            safe_print("Heavy RAG available: False or skipped")
+        elif not self._heavy_available:
+            safe_print(f"Heavy RAG unavailable reason: {self._heavy_reason}")
+        safe_print(f"Lightweight RAG mode: {self.lightweight_mode}")
+        if self.lightweight_mode:
+            safe_print("Using lightweight Raspberry Pi RAG")
 
     @property
     def available(self) -> bool:
         return self.enabled and self.chatbot_root.is_dir()
+
+    @property
+    def heavy_rag_available(self) -> bool:
+        return self._heavy_available
+
+    @property
+    def lightweight_mode(self) -> bool:
+        return self._force_lightweight or not self._heavy_available
+
+    @property
+    def heavy_unavailable_reason(self) -> str:
+        return self._heavy_reason
+
+    @property
+    def lightweight_chunk_count(self) -> int:
+        return 0 if self._lightweight_rag is None else self._lightweight_rag.chunk_count
 
     def listen(self, language: str, mic_device_index: int | None = None) -> str | None:
         if not self.available:
@@ -82,7 +112,7 @@ class MuseumChatbotEngine:
                 safe_print(f"Using English directly: {question_for_rag}")
 
             context = self.retrieve_context(question_for_rag)
-            safe_print("Generating answer")
+            safe_print("Generating answer with Groq")
             english_answer = self._ask_groq(
                 "You are an expert assistant for a museum tour guide robot.\n"
                 "Use the following context to answer the question in about 50 words.\n\n"
@@ -141,12 +171,24 @@ class MuseumChatbotEngine:
 
     def retrieve_context(self, question_for_rag: str) -> str:
         safe_print("Retrieving context")
+        if self.lightweight_mode:
+            engine = self.load_lightweight_rag()
+            chunks = engine.retrieve(question_for_rag, top_k=4)
+            return engine.format_context(chunks)
         retriever = self._load_retriever()
         docs = retriever.invoke(question_for_rag)
         safe_print(f"Retrieved {len(docs)} context chunks.")
         return "\n".join(doc.page_content for doc in docs[:5])
 
+    def load_lightweight_rag(self) -> LightweightRAGEngine:
+        if self._lightweight_rag is None:
+            self._lightweight_rag = LightweightRAGEngine(self.chatbot_root / "Data", ask_groq=self._ask_groq)
+        self._lightweight_rag.load_documents()
+        return self._lightweight_rag
+
     def load_embedding_model(self) -> Any:
+        if self.lightweight_mode:
+            raise RuntimeError(f"Heavy RAG skipped: {self._heavy_reason}")
         if self._embeddings is not None:
             return self._embeddings
         try:
@@ -158,6 +200,8 @@ class MuseumChatbotEngine:
         return self._embeddings
 
     def load_vectorstore(self) -> Any:
+        if self.lightweight_mode:
+            raise RuntimeError(f"Heavy RAG skipped: {self._heavy_reason}")
         if self._vectordb is not None:
             return self._vectordb
         safe_print("Loading vectorstore")
@@ -181,6 +225,26 @@ class MuseumChatbotEngine:
             return self._retriever
         self._retriever = self.load_vectorstore().as_retriever()
         return self._retriever
+
+    def _detect_heavy_rag_available(self) -> bool:
+        if self._force_lightweight:
+            self._heavy_reason = "PLANB_LIGHT_RAG=1"
+            return False
+        required_modules = (
+            "torch",
+            "faiss",
+            "sentence_transformers",
+            "langchain_community",
+            "langchain_huggingface",
+        )
+        missing = [name for name in required_modules if importlib.util.find_spec(name) is None]
+        if missing:
+            self._heavy_reason = "missing modules: " + ", ".join(missing)
+            return False
+        if not self.vectorstore_path.exists():
+            self._heavy_reason = f"missing vectorstore: {self.vectorstore_path}"
+            return False
+        return True
 
     def _transcribe_audio(self, wav_path: Path) -> str:
         api_key = get_env_first("GROQ_API_KEY")
@@ -296,6 +360,7 @@ class MuseumChatbotEngine:
     @staticmethod
     def _dependency_help() -> str:
         return (
-            "Install chatbot dependencies with: "
-            "python -m pip install -r NLP1.1\\requirements.txt pyaudio"
+            "For Windows/laptop heavy RAG install: python -m pip install -r NLP1.1\\requirements.txt pyaudio. "
+            "For Raspberry Pi lightweight RAG install: python3 -m pip install -r requirements-rpi.txt "
+            "and set PLANB_LIGHT_RAG=1."
         )

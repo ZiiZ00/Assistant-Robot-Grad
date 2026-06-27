@@ -1,0 +1,14 @@
+requests
+python-dotenv
+pypdf
+deep-translator
+gTTS
+edge-tts
+rank-bm25
+pyaudio
+pyttsx3
+openpyxl
+pyserial
+vosk
+arabic-reshaper
+python-bidi

@@ -30,8 +30,12 @@ from speech import (
 
 
 CHATBOT_DEPENDENCY_HELP = (
-    "Install integrated chatbot dependencies with: "
+    "Install Windows/laptop heavy chatbot dependencies with: "
     "python -m pip install -r NLP1.1\\requirements.txt pyaudio"
+)
+CHATBOT_RPI_HELP = (
+    "Install Raspberry Pi lightweight chatbot dependencies with: "
+    "python3 -m pip install -r requirements-rpi.txt"
 )
 EMBEDDING_MODEL_HELP = (
     "If the embedding model is missing, pre-download it with: "
@@ -96,6 +100,14 @@ def test_integrated_chatbot_env() -> None:
     safe_print(f"NLP1.1 folder exists: {chatbot_root.is_dir()}")
     safe_print(f"NLP1.1/vectorstore exists: {(chatbot_root / 'vectorstore').is_dir()}")
     safe_print(f"NLP1.1/Data exists: {(chatbot_root / 'Data').is_dir()}")
+    safe_print(f"Heavy RAG available: {engine.heavy_rag_available}")
+    safe_print(f"Lightweight RAG mode: {engine.lightweight_mode}")
+    if engine.lightweight_mode:
+        safe_print(f"Heavy RAG available: {'False or skipped'}")
+        light_engine = engine.load_lightweight_rag()
+        safe_print(f"Loaded document chunks: {light_engine.chunk_count}")
+    else:
+        safe_print(f"Heavy RAG unavailable reason: {engine.heavy_unavailable_reason}")
     safe_print(f"GROQ_API_KEY exists: {bool(get_env_first('GROQ_API_KEY'))}")
     safe_print(f"ElevenLabs API key exists: {bool(get_env_first('ELEVEN_API_KEY', 'ELEVENLABS_API_KEY'))}")
     safe_print(f"ElevenLabs voice id exists: {bool(get_env_first('ELEVEN_VOICE_ID', 'ELEVENLABS_VOICE_ID'))}")
@@ -117,23 +129,32 @@ def test_integrated_chatbot_env() -> None:
             safe_print(f"Import {module_name}: FAILED")
             safe_print(f"Import {module_name} exception: {type(exc).__name__}: {exc}")
 
-    embedding_ok = _run_check_with_timeout(
-        "Embedding model load",
-        engine.load_embedding_model,
-        timeout_seconds=45.0,
-    )
-    if embedding_ok:
-        vectorstore_ok = _run_check_with_timeout(
-            "Vectorstore load",
-            engine.load_vectorstore,
+    if engine.lightweight_mode:
+        embedding_ok = False
+        vectorstore_ok = False
+        safe_print("Embedding model load: SKIPPED because lightweight RAG mode is active")
+        safe_print("Vectorstore load: SKIPPED because lightweight RAG mode is active")
+    else:
+        embedding_ok = _run_check_with_timeout(
+            "Embedding model load",
+            engine.load_embedding_model,
             timeout_seconds=45.0,
         )
-    else:
-        vectorstore_ok = False
-        safe_print("Vectorstore load: SKIPPED because embedding model did not load")
+        if embedding_ok:
+            vectorstore_ok = _run_check_with_timeout(
+                "Vectorstore load",
+                engine.load_vectorstore,
+                timeout_seconds=45.0,
+            )
+        else:
+            vectorstore_ok = False
+            safe_print("Vectorstore load: SKIPPED because embedding model did not load")
     safe_print(f"Embedding model loaded: {embedding_ok}")
     safe_print(f"Vectorstore loaded: {vectorstore_ok}")
-    if not embedding_ok or not vectorstore_ok or not get_env_first("GROQ_API_KEY"):
+    if engine.lightweight_mode:
+        safe_print(CHATBOT_RPI_HELP)
+        safe_print("Set Pi light mode with: export PLANB_LIGHT_RAG=1")
+    if (not engine.lightweight_mode and (not embedding_ok or not vectorstore_ok)) or not get_env_first("GROQ_API_KEY"):
         safe_print(CHATBOT_DEPENDENCY_HELP)
         safe_print(EMBEDDING_MODEL_HELP)
         safe_print("Set Groq key with: $env:GROQ_API_KEY=\"your-groq-key\"")

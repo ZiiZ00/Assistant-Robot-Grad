@@ -57,6 +57,27 @@ sudo apt install python3-tk python3-pip fonts-noto-core fonts-noto-extra -y
 python3 -m pip install -r requirements.txt
 ```
 
+For the Raspberry Pi chatbot/RAG setup, do not install `NLP1.1/requirements.txt`.
+That file is only for the Windows/laptop heavy FAISS path because it includes
+packages that can require `torch`, `sentence-transformers`, or `faiss-cpu`.
+Use the lightweight Pi requirements instead:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements-rpi.txt
+```
+
+Pi `.env` example:
+
+```text
+GROQ_API_KEY=your_real_groq_key
+ELEVEN_API_KEY=your_real_elevenlabs_key
+ELEVEN_VOICE_ID=your_voice_id
+PLANB_LIGHT_RAG=1
+```
+
 The requirements include Arabic shaping and bidirectional display support. They can also be installed directly:
 
 ```bash
@@ -202,6 +223,40 @@ export GEMINI_MODEL="gemini-2.5-flash"
 ```
 
 Gemini network work runs outside the Tkinter thread. A missing key, unavailable internet, API error, or empty response produces the bilingual no-data message and does not stop the tour.
+
+## Integrated chatbot RAG modes
+
+The app keeps the direct `NLP1.1` FAISS/sentence-transformers integration for
+Windows/laptop setups when its dependencies are installed. On Raspberry Pi, or
+whenever heavy dependencies are missing, `MuseumChatbotEngine` automatically
+uses local lightweight RAG from `NLP1.1/Data` instead of crashing.
+
+Force the Pi-safe path with:
+
+```bash
+export PLANB_LIGHT_RAG=1
+```
+
+The lightweight mode reads PDFs with `pypdf`, reads `.txt` files if present,
+splits document text into chunks, retrieves with `rank-bm25` when installed,
+and falls back to pure keyword/token-overlap scoring when BM25 is unavailable.
+It does not use `torch`, `sentence-transformers`, or `faiss-cpu`.
+
+Raspberry Pi diagnostics:
+
+```bash
+PLANB_LIGHT_RAG=1 python3 main.py --test-integrated-chatbot-env
+PLANB_LIGHT_RAG=1 python3 main.py --test-integrated-chatbot-typed --language en --question "Who is Ramses II?"
+PLANB_LIGHT_RAG=1 python3 main.py --test-integrated-chatbot-typed --language ar --question "من هو رمسيس الثاني؟"
+PLANB_LIGHT_RAG=1 python3 main.py --test-integrated-chatbot-voice --language en
+PLANB_LIGHT_RAG=1 python3 main.py --test-integrated-chatbot-voice --language ar
+```
+
+Raspberry Pi UI test:
+
+```bash
+PLANB_LIGHT_RAG=1 python3 main.py --simulate --debug-arrived-button --enable-tts --enable-stt --no-fullscreen
+```
 
 Find the stable Arduino device name after plugging it in:
 
