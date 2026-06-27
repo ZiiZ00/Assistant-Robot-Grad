@@ -221,7 +221,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--keyboard-drive", action="store_true", help="read W/S/A/D/Space/Q from this terminal")
     parser.add_argument("--drive-speed", type=int, default=120, help="forward/backward PWM (0-255)")
     parser.add_argument("--turn-speed", type=int, default=100, help="turning PWM (0-255)")
-    parser.add_argument("--enable-tts", action="store_true", help="enable pyttsx3 speech if installed")
+    parser.add_argument("--enable-tts", action="store_true", help="enable centralized TTS speech")
     parser.add_argument("--enable-stt", action="store_true", help="enable microphone recognition if installed")
     parser.add_argument("--mic-device-index", type=int, help="PyAudio input device index")
     parser.add_argument("--stt-language", choices=("en", "ar"), default="en",

@@ -190,6 +190,31 @@ class CoreTests(unittest.TestCase):
             finally:
                 tts.stop()
 
+    def test_tts_forced_edge_uses_edge_first(self):
+        with patch.dict("os.environ", {
+            "PLANB_TTS_ENGINE": "edge",
+            "PLANB_TTS_VOICE_EN": "en-US-GuyNeural",
+            "PLANB_TTS_VOICE_AR": "ar-EG-ShakirNeural",
+        }, clear=True):
+            tts = TextToSpeech(enabled=True)
+            try:
+                self.assertEqual(tts._engine_for_language("en"), "edge-tts")
+                self.assertEqual(tts._engine_for_language("ar"), "edge-tts")
+                self.assertEqual(tts._edge_voice_en, "en-US-GuyNeural")
+                self.assertEqual(tts._edge_voice_ar, "ar-EG-ShakirNeural")
+            finally:
+                tts.stop()
+
+    def test_tts_default_prefers_edge_when_available_without_elevenlabs(self):
+        with patch.dict("os.environ", {}, clear=True), \
+             patch("speech.importlib.util.find_spec", return_value=object()):
+            tts = TextToSpeech(enabled=True)
+            try:
+                self.assertEqual(tts._engine_for_language("en"), "edge-tts")
+                self.assertEqual(tts._engine_for_language("ar"), "edge-tts")
+            finally:
+                tts.stop()
+
     def test_get_env_first_uses_priority_order(self):
         with patch.dict("os.environ", {
             "ELEVEN_API_KEY": "primary",

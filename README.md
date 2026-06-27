@@ -76,6 +76,9 @@ GROQ_API_KEY=your_real_groq_key
 ELEVEN_API_KEY=your_real_elevenlabs_key
 ELEVEN_VOICE_ID=your_voice_id
 PLANB_LIGHT_RAG=1
+PLANB_TTS_ENGINE=edge
+PLANB_TTS_VOICE_EN=en-US-GuyNeural
+PLANB_TTS_VOICE_AR=ar-EG-ShakirNeural
 ```
 
 The requirements include Arabic shaping and bidirectional display support. They can also be installed directly:
@@ -90,8 +93,8 @@ Arabic remains normal UTF-8 in the JSON and source files. The UI reshapes it onl
 Optional TTS:
 
 ```bash
-sudo apt install espeak-ng
-python3 -m pip install pyttsx3
+sudo apt install mpg123 espeak-ng
+python3 -m pip install edge-tts gTTS pyttsx3
 ```
 
 ## API Keys Setup
@@ -140,7 +143,15 @@ Install `.env` support when setting up the laptop:
 python -m pip install python-dotenv
 ```
 
-TTS uses one centralized `TextToSpeech` path for artifact explanations and chatbot answers. When ElevenLabs keys and voice ID exist, both English and Arabic use the same ElevenLabs voice ID. If ElevenLabs fails, English can fall back to `pyttsx3`, Arabic can fall back to `espeak-ng` on Raspberry Pi OS, and the final fallback is timed simulation so the tour keeps moving.
+TTS uses one centralized `TextToSpeech` path for artifact explanations and chatbot answers. The Raspberry Pi demo voice can use `edge-tts` without ElevenLabs, Hugging Face, `transformers`, or `torch`. Set `PLANB_TTS_ENGINE=edge` to try Microsoft Edge neural voices first. If ElevenLabs keys exist and no engine is forced, ElevenLabs can still be used; otherwise the fallback order is `edge-tts`, `gTTS`, English `pyttsx3`, Arabic `espeak-ng`, then timed simulation so the tour keeps moving.
+
+Preferred Edge voices:
+
+```text
+PLANB_TTS_ENGINE=edge
+PLANB_TTS_VOICE_EN=en-US-GuyNeural
+PLANB_TTS_VOICE_AR=ar-EG-ShakirNeural
+```
 
 Optional Vosk speech recognition requires `vosk`, `PyAudio`, and compatible unpacked language models. Typed questions remain the reliable fallback.
 STT is off by default. Pass `--enable-stt` to try microphone input; if a dependency or model is missing, the app warns once and keeps the typed Q&A available.
@@ -177,8 +188,8 @@ On Raspberry Pi OS, install optional speech packages with:
 
 ```bash
 sudo apt update
-sudo apt install espeak-ng python3-pyaudio portaudio19-dev -y
-python3 -m pip install pyttsx3 vosk
+sudo apt install mpg123 espeak-ng python3-pyaudio portaudio19-dev -y
+python3 -m pip install edge-tts gTTS pyttsx3 vosk
 ```
 
 Direct speech diagnostics:
@@ -190,11 +201,13 @@ python main.py --test-stt-once --stt-language en --mic-device-index 1
 python main.py --test-stt-once --stt-language ar --mic-device-index 1
 python main.py --test-tts-en
 python main.py --test-tts-ar
+PLANB_TTS_ENGINE=edge python main.py --test-tts-en
+PLANB_TTS_ENGINE=edge python main.py --test-tts-ar
 python main.py --test-integrated-chatbot-typed --language en --question "Talk about the Grand Egyptian Museum" --speak-answer
 python main.py --test-integrated-chatbot-typed --language ar --question "تحدث عن المتحف المصري الكبير" --speak-answer
 ```
 
-On Raspberry Pi OS, use `python3` instead of `python`. Arabic TTS prefers `espeak-ng -v ar` when available; otherwise the app falls back to timed simulation and keeps the tour moving.
+On Raspberry Pi OS, use `python3` instead of `python`. Edge TTS saves MP3 audio and prefers `mpg123` for playback, falling back to `ffplay` if available. Arabic TTS falls back to `espeak-ng -v ar` when Edge/gTTS are unavailable; otherwise the app falls back to timed simulation and keeps the tour moving.
 
 List PyAudio devices before starting the UI:
 

@@ -4,6 +4,8 @@ from __future__ import annotations
 import json
 import math
 import os
+import asyncio
+import importlib.util
 from pathlib import Path
 import queue
 import shutil
@@ -32,11 +34,17 @@ class TextToSpeech:
         self.engine_name = "timed simulation"
         self._pyttsx3_engine = None
         self._espeak_ng = shutil.which("espeak-ng")
+        self._requested_engine = (get_env_first("PLANB_TTS_ENGINE") or "").strip().lower()
+        self._edge_voice_en = get_env_first("PLANB_TTS_VOICE_EN") or "en-US-GuyNeural"
+        self._edge_voice_ar = get_env_first("PLANB_TTS_VOICE_AR") or "ar-EG-ShakirNeural"
+        self._edge_available = importlib.util.find_spec("edge_tts") is not None
         self._eleven_api_key = get_env_first("ELEVEN_API_KEY", "ELEVENLABS_API_KEY")
         self._eleven_voice_id = get_env_first("ELEVEN_VOICE_ID", "ELEVENLABS_VOICE_ID")
         self._jobs: "queue.Queue[tuple[str, str, Callable[[], None]]]" = queue.Queue()
         self._cancelled = threading.Event()
         safe_print(f"TTS enabled: {enabled}")
+        safe_print(f"TTS engine requested: {self._requested_engine or 'auto'}")
+        safe_print(f"edge-tts available: {self._edge_available}")
         safe_print(f"ElevenLabs API key exists: {bool(self._eleven_api_key)}")
         safe_print(f"ElevenLabs voice id exists: {bool(self._eleven_voice_id)}")
         if self._eleven_voice_id:
@@ -88,11 +96,26 @@ class TextToSpeech:
     def _engine_for_language(self, language: str) -> str:
         if not self.enabled:
             return "timed simulation"
-        if self._eleven_api_key and self._eleven_voice_id:
+        if self._requested_engine == "edge":
+            return "edge-tts"
+        if self._requested_engine == "elevenlabs" and self._eleven_api_key and self._eleven_voice_id:
             return "elevenlabs"
-        return self._fallback_engine_for_language(language)
+        if self._requested_engine == "gtts":
+            return "gTTS"
+        if self._requested_engine in {"pyttsx3", "espeak-ng", "timed simulation"}:
+            return self._requested_engine
+        if not self._requested_engine and self._eleven_api_key and self._eleven_voice_id:
+            return "elevenlabs"
+        if self._edge_available:
+            return "edge-tts"
+        return "gTTS"
 
     def _fallback_engine_for_language(self, language: str) -> str:
+        if self._edge_available:
+            return "edge-tts"
+        return self._local_fallback_engine_for_language(language)
+
+    def _local_fallback_engine_for_language(self, language: str) -> str:
         if language == "ar" and self._espeak_ng:
             return "espeak-ng"
         if language != "ar" and self._pyttsx3_engine:
@@ -104,6 +127,18 @@ class TextToSpeech:
             if self._speak_elevenlabs(text, language):
                 return
             selected_engine = self._fallback_engine_for_language(language)
+            safe_print(f"TTS fallback: {selected_engine}")
+
+        if selected_engine == "edge-tts" and not self._cancelled.is_set():
+            if self._speak_edge_tts(text, language):
+                return
+            selected_engine = "gTTS"
+            safe_print(f"TTS fallback: {selected_engine}")
+
+        if selected_engine == "gTTS" and not self._cancelled.is_set():
+            if self._speak_gtts(text, language):
+                return
+            selected_engine = self._local_fallback_engine_for_language(language)
             safe_print(f"TTS fallback: {selected_engine}")
 
         if selected_engine == "pyttsx3" and not self._cancelled.is_set():
@@ -125,6 +160,56 @@ class TextToSpeech:
 
         safe_print("TTS fallback: timed simulation")
         self._simulate_speech_delay(text)
+
+    def _speak_edge_tts(self, text: str, language: str) -> bool:
+        if not self._edge_available:
+            safe_print("edge-tts exception: module is not installed")
+            return False
+        voice = self._edge_voice_ar if language == "ar" else self._edge_voice_en
+        safe_print(f"edge-tts voice selected: {voice}")
+        audio_path: Path | None = None
+        try:
+            import edge_tts  # type: ignore
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as audio_file:
+                audio_path = Path(audio_file.name)
+
+            async def save_audio() -> None:
+                communicate = edge_tts.Communicate(text, voice)
+                await communicate.save(str(audio_path))
+
+            asyncio.run(save_audio())
+            safe_print(f"edge-tts output file: {audio_path}")
+            self._play_audio_file(audio_path)
+            return True
+        except Exception as exc:
+            safe_print(f"edge-tts exception: {exc}")
+            return False
+        finally:
+            if audio_path:
+                try:
+                    audio_path.unlink(missing_ok=True)
+                except Exception as exc:
+                    safe_print(f"TTS audio cleanup exception: {exc}")
+
+    def _speak_gtts(self, text: str, language: str) -> bool:
+        audio_path: Path | None = None
+        try:
+            from gtts import gTTS  # type: ignore
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as audio_file:
+                audio_path = Path(audio_file.name)
+            gTTS(text=text, lang=language, slow=False).save(str(audio_path))
+            safe_print(f"gTTS output file: {audio_path}")
+            self._play_audio_file(audio_path)
+            return True
+        except Exception as exc:
+            safe_print(f"gTTS exception: {exc}")
+            return False
+        finally:
+            if audio_path:
+                try:
+                    audio_path.unlink(missing_ok=True)
+                except Exception as exc:
+                    safe_print(f"TTS audio cleanup exception: {exc}")
 
     def _speak_elevenlabs(self, text: str, language: str) -> bool:
         safe_print("ElevenLabs request started")
@@ -200,17 +285,27 @@ class TextToSpeech:
 
     @staticmethod
     def _play_audio_posix(audio_path: Path) -> None:
-        players = (
-            ("ffplay", ["ffplay", "-nodisp", "-autoexit", "-loglevel", "quiet", str(audio_path)]),
-            ("mpg123", ["mpg123", "-q", str(audio_path)]),
-            ("mpg321", ["mpg321", "-q", str(audio_path)]),
-            ("cvlc", ["cvlc", "--play-and-exit", "--quiet", str(audio_path)]),
-        )
+        suffix = audio_path.suffix.lower()
+        if suffix == ".wav":
+            players = (
+                ("aplay", ["aplay", str(audio_path)]),
+                ("ffplay", ["ffplay", "-nodisp", "-autoexit", "-loglevel", "quiet", str(audio_path)]),
+            )
+        else:
+            players = (
+                ("mpg123", ["mpg123", "-q", str(audio_path)]),
+                ("ffplay", ["ffplay", "-nodisp", "-autoexit", "-loglevel", "quiet", str(audio_path)]),
+                ("mpg321", ["mpg321", "-q", str(audio_path)]),
+                ("cvlc", ["cvlc", "--play-and-exit", "--quiet", str(audio_path)]),
+            )
         for executable, command in players:
             if shutil.which(executable):
+                safe_print(f"edge-tts playback command: {' '.join(command)}")
                 subprocess.run(command, check=True, timeout=120)
                 return
-        raise RuntimeError("No MP3 playback command found. Install ffmpeg/ffplay or mpg123.")
+        if suffix == ".wav":
+            raise RuntimeError("No WAV playback command found. Install aplay or ffmpeg/ffplay.")
+        raise RuntimeError("No MP3 playback command found. Install mpg123 or ffmpeg/ffplay.")
 
     def _speak_pyttsx3(self, text: str, language: str) -> None:
         if not self._pyttsx3_engine:
