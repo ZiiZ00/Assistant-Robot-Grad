@@ -1,0 +1,1292 @@
+
+ANCIENT EGYPT
+This fully revised and updated third edition of the bestselling Ancient Egypt seeks to identify what gave
+ancient Egypt its distinctive and enduring characteristics, ranging across material culture, the mindset of its
+people, and social and economic factors.
+In this volume, Barry J. Kemp identifies the ideas by which the Egyptians organized their experience of
+the world and explains how they maintained a uniform style in their art and architecture across three thousand
+years, whilst accommodating substantial changes in outlook. The underlying aim is to relate ancient
+Egypt to the broader mainstream of our understanding of how all human societies function.
+Source material is taken from ancient written documents, while the book also highlights the contribution
+that archaeology makes to our understanding of Egyptian culture and society. It uses numerous case studies,
+illustrating them with artwork expressly prepared from specialist sources. Broad ranging yet impressively
+detailed, the book is an indispensable text for all students of ancient Egypt and for the general reader.
+Barry J. Kemp is Emeritus Professor of Egyptology (University of Cambridge), Senior Fellow of the
+McDonald Institute for Archaeological Research (University of Cambridge) and director of the Amarna
+Project.
+
+ANCIENT EGYPT
+Anatomy of a Civilization
+Third Edition
+Barry J. Kemp
+﻿
+First published 2018
+by Routledge
+2 Park Square, Milton Park, Abingdon, Oxon OX14 4RN
+and by Routledge
+711 Third Avenue, New York, NY 10017
+Routledge is an imprint of the Taylor & Francis Group, an informa business
+© 2018 Barry J. Kemp
+The right of Barry J. Kemp to be identified as author of this work has been asserted by him in
+accordance with sections 77 and 78 of the Copyright, Designs and Patents Act 1988.
+All rights reserved. No part of this book may be reprinted or reproduced or utilised
+in any form or by any electronic, mechanical, or other means, now known or
+hereafter invented, including photocopying and recording, or in any information
+storage or retrieval system, without permission in writing from the publishers.
+Trademark notice: Product or corporate names may be trademarks or registered trademarks,
+and are used only for identification and explanation without intent to infringe.
+British Library Cataloguing- in- Publication Data
+A catalogue record for this book is available from the British Library
+Library of Congress Cataloging- in- Publication Data
+Names: Kemp, Barry J., author.
+Title: Ancient Egypt : anatomy of a civilization / Barry J. Kemp.
+Description: 3[rd edition]. | Abingdon, Oxon ; New York, NY : Routledge, 2018. |
+Includes bibliographical references and index.
+Identifiers: LCCN 2017045977 (print) | LCCN 2017048871 (ebook) |
+ISBN 9781351166485 (Master) | ISBN 9781351166461 (ePUB) |
+ISBN 9781351166454 (Mobi/Kindle) | ISBN 9781351166478 (Web PDF) |
+ISBN 9780415827256 (hardback : alk. paper) | ISBN 9780415827263 (pbk. : alk. paper)
+Subjects: LCSH: Egypt–Civilization–To 332 B.C.
+Classification: LCC DT61 (ebook) | LCC DT61 .K44 2018 (print) |
+DDC 932/.1—dc23
+LC record available at https://lccn.loc.gov/2017045977
+ISBN: 9780415827256 (hbk)
+ISBN: 9780415827263 (pbk)
+ISBN: 9781351166485 (ebk)
+Typeset in Bembo
+by Out of House Publishing
+v
+CONTENTS
+Acknowledgements vii
+List of abbreviations of works viii
+Introduction 1
+PART I
+Establishing identity 21
+1 Who were the ancient Egyptians? 23
+2 The intellectual foundations of the early state 57
+3 The dynamics of culture 110
+PART II
+The provider state 163
+4 The bureaucratic mind 165
+5 Model communities 194
+PART III
+Intimations of our futures 245
+6 New Kingdom Egypt: the mature state 247
+Contents
+vi
+7 The birth of economic man 294
+8 Egypt in microcosm: the city of Amarna 320
+Index 381
+vii
+ACKNOWLEDGEMENTS
+I am indebted to the editorial staff at Routledge for urging on me, for the second time, a revised edition,
+and for patience in waiting for me to complete it long after I should have. They provided feedback from
+colleagues which, in particular, persuaded me to restore a rewritten chapter on Amarna in place of the last
+chapter of the second edition. Over the years I have gained much from discussions with Gretchen Dabbs,
+Corinne Duhig, Mark Lehner, Jerry Rose, Kate Spence and Anna Stevens, the last the Amarna Project’s
+assistant director. Chapter 8 could not have been written without the Amarna expedition which was, for
+many years, a project of the Egypt Exploration Society and is now, as the Amarna Project, supported by the
+Amarna Trust and (in the USA) the Amarna Research Foundation. Working at Amarna with the members
+of the expedition team (whose names would fill more than a page) and with the local people has given me
+a perspective on life in the past and in the present which otherwise I would have missed and been poorer
+for. Following my retirement from my teaching post at the University of Cambridge I have been greatly
+indebted when in Cambridge to the McDonald Institute for Archaeological Research for continuing to
+welcome me to its research community, to Wolfson College for its hospitality, to the Haddon Library and
+Cambridge University Library (a true cathedral of knowledge) for access to their collections, and likewise
+when in Cairo to the library of the American Research Center in Egypt. My wife, Miriam, has constantly
+provided much pragmatic support and wisdom as I have worked (sometimes struggled) to complete this
+revision.
+For illustrations thanks are due to the following for permission to reproduce photographs: Daniel
+Polz and the German Archaeological Institute in Cairo: Photograph 3.1; The Egypt Exploration
+Society: Photographs 8.2 and 8.3. Sonia Zakrzewski provided me with an original chart for Figure 1.12
+and permission to use it. The drawings for Figures 0.3, 2.3, 4.2 and 6.7 were made by Barbara Garfi; for
+Figure 2.12 and objects in Figures 3.7, 3.11, 6.12 and 8.19 by Andy Boyce; designs in Figures 2.18 and 8.20
+are by Miriam Bertram. Thames & Hudson (with the permission of the authors) allowed me to see a proof
+of their forthcoming book, M. Lehner and Z. Hawass, Giza and the Pyramids (now published, late 2017).
+viii
+ABBREVIATIONS OF WORKS (OTHER
+THAN JOURNAL ARTICLES) CITED
+MORE THAN ONCE IN THE NOTES
+OR CAPTIONS
+Works abbreviated by title
+AfO Archiv für Orientforschung
+AJA American Journal of Archaeology
+AJPA American Journal of Physical Anthropology
+AJSL American Journal of Semitic Languages
+AR Amarna Reports. 6 vols. London, EES, 1984– 95.
+ASAE Annales du Service des Antiquités de l’Égypte
+Ä&L Ägypten und Levante
+BIFAO Bulletin de l’Institut français d’Archéologie orientale
+CAJ Cambridge Archaeological Journal
+CdÉ Chronique d’Égypte
+CdK Cahiers de Karnak
+EA Egyptian Archaeology
+GM Göttinger Miszellen
+JAEI Journal of Ancient Egyptian Interconnections
+JAOS Journal of the American Oriental Society
+JARCE Journal of the American Research Center in Egypt
+JAS Journal of Archaeological Science
+JEA Journal of Egyptian Archaeology
+JEH Journal of Egyptian History
+JESHO Journal of the Economic and Social History of the Orient
+JFA Journal of Field Archaeology
+JNES Journal of Near Eastern Studies
+JSSEA Journal of the Society for the Study of Egyptian Antiquities (Toronto)
+LAAA Annals of Archaeology and Anthropology (Liverpool)
+LD C.R. Lepsius, ed., Denkmaeler aus Aegypten und Aethiopien. 6 vols in 12. Berlin, 1849– 58.
+Lexikon W. Helck and E. Otto (later W. Helck and W. Westendorf), eds, Lexikon der Ägyptologie, 6
+vols, Wiesbaden, Harrassowitz, 1975– 86.
+MDAIK Mitteilungen des Deutschen Archäologischen Instituts, Abteilung Kairo
+MDIAAK Mitteilungen des Deutschen Instituts für Ägyptische Altertumskunde in Kairo
+Abbreviations
+ix
+MDOG Mitteilungen der Deutschen Orient- Gesellschaft zu Berlin
+MM Journal Metropolitan Museum Journal
+NARCE Newsletter, American Research Center in Egypt
+RdÉ Revue d’Égyptologie
+SAK Studien zur Altägyptischen Kultur
+Urk. IV K. Sethe, Urkunden der 18. Dynastie. Leipzig, Hinrichs, 1905– 9; W. Helck, Urkunden der 18.
+Dynastie. Berlin, Akademie- Verlag, 1955– 8.
+VA Varia Aegyptiaca
+Wb. A. Erman and H. Grapow, Wörterbuch der ägyptischen Sprache. 12 vols in 10. Leipzig,
+Hinrichs, 1926– 63.
+ZÄS Zeitschrift für Ägyptische Sprache
+Institutional and publisher abbreviations
+A&P Aris & Phillips
+AUC American University Cairo
+BM British Museum
+BroM Brooklyn Museum
+BSAE British School of Archaeology in Egypt
+CoUP Cornell University Press
+CUP Cambridge University Press
+DAIK Deutsches Archäologisches Institut. Abteilung Kairo
+EEF Egypt Exploration Fund
+EES Egypt Exploration Society
+GI Griffith Institute
+HUP Harvard University Press
+IFAO Institut français d’Archéologie orientale du Caire
+KPI Kegan Paul International
+MFA Museum of Fine Arts
+MMA Metropolitan Museum of Art
+NINO Nederlands Instituut voor het Nabije Oosten
+OUP Oxford University Press
+T&H Thames & Hudson
+UCP University of Chicago Press
+VOAW Verlag der Österreichischen Akademie der Wissenschaften
+V&R Vandenhoeck & Ruprecht
+W&N Weidenfeld & Nicolson
+YUP Yale University Press
+Works abbreviated by author and title
+Adams, Ancient Hierakonpolis – B. Adams, Ancient Hierakonpolis, with Supplement, Warminster,
+A&P, 1974.
+Adams, Ancient Nekhen – B. Adams, Ancient Nekhen: Garstang in the City of Hierakonpolis, New Malden, SIA
+Publications, 1995.
+Adams, Nubia – W.Y. Adams, Nubia: Corridor to Africa, London, Allen Lane, 1977.
+Abbreviations
+x
+Adams, ‘Textual window’ – M.D. Adams, ‘A textual window on the settlement system in ancient Egypt.’
+In J. Lustig, ed., Anthropology and Egyptology: a Developing Dialogue, Sheffield, Sheffield Academic Press,
+1997, 90– 105.
+Allen, Genesis in Egypt – J.P. Allen, Genesis in Egypt: the Philosophy of Ancient Egyptian Creation Accounts, New
+Haven, CT, Dept of Near Eastern Languages and Civilizations, 1988.
+Allen, Heqanakht – J.P. Allen, The Heqanakht Papyri, New York, MMA, 2002.
+Arnold, Qasr el-Sagha – D. and Do. Arnold, Der Tempel Qasr el-Sagha, Mainz, von Zabern, 1979.
+Arnold, Royal Women – Do. Arnold, The Royal Women of Amarna: Images of Beauty from Ancient Egypt,
+New York, MMA, 1996.
+Arnold, Tempel Mentuhotep – D. Arnold, Der Tempel des Königs Mentuhotep von Deir el- Bahari I. Architektur
+und Deutung, Mainz, von Zabern, 1974.
+Ayrton et al., Abydos III – E.R. Ayrton, C.T. Currelly and A.E.P. Weigall, Abydos III, London, EEF, 1904.
+Bakir, Slavery – Abd el- Mohsen Bakir, Slavery in Pharaonic Egypt, Cairo, IFAO, 1952.
+Bard, Encyclopedia – K.A. Bard, ed., Encyclopedia of the Archaeology of Ancient Egypt, London and New York,
+Routledge, 1999.
+Bietak, Avaris – M. Bietak, Avaris: Capital of the Hyksos: Recent Excavations at Tell el- Dabʾa, London,
+BM, 1996.
+Bietak, Haus und Palast – M. Bietak, ed., Haus und Palast im alten Ägypten, Vienna, VOAW, 1996.
+Bietak et al., Cities – M. Bietak, E. Czerny and I. Forstner- Müller, eds, Cities and Urbanism in Ancient Egypt,
+Vienna, VOAW, 2010.
+Bloch, ‘Religion’ – M. Bloch, ‘Why religion is nothing special but is central.’ In The Sapient Mind: Archaeology
+Meets Neuroscience. Philosophical Transactions of the Royal Society (June 2008), 2055– 62.
+Blyth, Karnak – E. Blyth, Karnak: Evolution of at Temple, London and New York, Routledge, 2006.
+Borchardt, Grabdenkmal – L. Borchardt, Das Grabdenkmal des Königs Nefer- ir- ke- reʾ, Leipzig, Hinrichs, 1909.
+Borchardt, Tempel – L. Borchardt, Ägyptische Tempel mit Umgang, Cairo, Selbsverlag, 1938.
+Borchardt and Ricke, Wohnhäuser – L. Borchardt and H. Ricke, Die Wohnhäuser in Tell el- Amarna, Berlin,
+Mann, 1980.
+Breasted, Ancient Records – J.H. Breasted, Ancient Records of Egypt: Historical Documents, 5 vols, Chicago, IL,
+UCP, 1906– 7.
+Brunton, Mostagedda – G. Brunton, Mostagedda and the Tasian Culture, London, Quaritch, 1937.
+Brunton, Qau – G. Brunton, Qau and Badari, 3 vols, London, BSAE, 1927– 30.
+Bussmann, Provinztempel – R. Bussmann, Die Provinztempel Ägyptens von der 0. bis zur 11. Dynastie, Leiden
+and Boston, MA, Brill, 2010.
+Butzer, Hydraulic Civilization – K.W. Butzer, Early Hydraulic Civilization in Egypt: a Study in Cultural Ecology,
+Chicago, IL, and London, UCP, 1976.
+Caminos, Miscellanies – R.A. Caminos, Late- Egyptian Miscellanies, London, OUP, 1954.
+Černy, Community – J. Černy, A Community of Workmen at Thebes in the Ramesside Period, Cairo, IFAO,
+1973, 2000.
+Charloux and Mensam, Karnak – G. Charloux and R. Mensam, Karnak avant la XVIIIe dynastie, Paris,
+Soleb, 2012.
+Chłodnicki et al., Tell el- Farkha – M. Chłodnicki, K.M. Ciałowicz and A. Mączyńska, eds, Tell El- Farkha
+I. Excavations 1998– 2011, Poznań (Archaeological Museum) and Kraków (Institute of Archaeology,
+Jagiellonian University), 2012 = www.muzarp.poznan.pl/ wp- content/ uploads/ 2012/ 12/ Tell- el-
+Farkha- I- Excavations- 1998- 2011_ download.pdf.
+Clarke and Engelbach, Masonry – S. Clarke and R. Engelbach, Ancient Egyptian Masonry, London, OUP,
+1930.
+Collier and Quirke, Papyri, Accounts – M. Collier and S. Quirke, eds, The UCL Lahun Papyri: Accounts,
+Oxford, Archaeopress, 2006.
+Abbreviations
+xi
+Collier and Quirke, Papyri, Letters – M. Collier and S. Quirke, The UCL Lahun Papyri: Letters, Oxford,
+Archaeopress, 2002.
+Collier and Quirke, Papyri, Religious – M. Collier and S. Quirke, The UCL Lahun Papyri: Religious, Literary,
+Legal, Mathematical and Medical, Oxford, Archaeopress, 2004.
+Collier and Snape, Ramesside Studies – M. Collier and S. Snape, eds, Ramesside Studies in Honour of K.A.
+Kitchen, Bolton, Rutherford, 2011.
+Cooney, Amarna Reliefs – J.D. Cooney, Amarna Reliefs from Hermopolis in American Collections, Brooklyn, NY,
+BroM and Mainz, von Zabern, 1965.
+Czerny, Tell el- Dabʾa IX – E. Czerny, Tell el- Dabʾa IX. Eine Plansiedlung des frühen Mittleren Reiches, Vienna,
+VOAW, 1999.
+Darnell and Manassa, Tutankhamun’s Armies – J.C. Darnell and C. Manassa, Tutankhamun’s Armies: Battle and
+Conquest during Ancient Egypt’s Late 18th Dynasty, Hoboken, NJ, and Chichester, Wiley, 2007.
+Davies, Historical Inscriptions – B. Davies, Egyptian Historical Inscriptions of the Nineteenth Dynasty, Jonsered,
+Paul Åströms Förlag, 1997.
+Davies, Rekh- mi- rē ʾ – N. de G. Davies, The Tomb of Rekh- mi- rē ʾ at Thebes, New York, MMA, 1935.
+Davies, Rock Tombs – N. de G. Davies, The Rock Tombs of El Amarna, 6 vols, London, EEF, 1903– 8, reprinted
+as 3 vols, 2004.
+Davies, Two Ramesside Tombs – N. de G. Davies, Two Ramesside Tombs at Thebes, New York, MMA, 1927.
+Deir el- Medina Studies – J. Toivari- Viitala, T. Vartiainen and S. Uvanto, eds, Deir el- Medina Studies; Helsinki
+June 24– 26, 2009 Proceedings, Vantaa, Finnish Egyptological Society, 2014.
+Demarée and Valbelle, Les registres – R. Demarée and D. Valbelle, Les registres de recensement du village de Deir
+el- Médineh (Le ‘Stato Civile’), Leuven, etc., Peeters, 2011.
+Dreyer, Elephantine VIII – G. Dreyer, Elephantine VIII. Der Tempel der Satet: die Funde der Frühzeit und des
+Alten Reiches, Mainz, von Zabern, 1986.
+Dreyer, Umm El- Qaab I – G. Dreyer, Umm El- Qaab I, Das prädynastische Königsgrab U- j und seine frühen
+Schriftzeugnisse, Mainz, von Zabern, 1998.
+Dunham and Janssen, Semna Kumma – D. Dunham and J.M.A. Janssen, Semna Kumma, Boston, MA,
+MFA, 1960.
+Dunham, Uronarti – D. Dunham, Uronarti Shalfak Mirgissa, Boston, MA, MFA, 1967.
+Elephantine: the Ancient Town – [W. Kaiser], Elephantine: the Ancient Town. The Official Guidebook of the German
+Institute of Archaeology, Cairo, DAIK, 1998.
+Emery et al., Buhen – W.B. Emery, H.S. Smith and A. Millard, The Fortress of Buhen: the Archaeological Report,
+London, EES, 1979.
+Engelbach, Obelisk – R. Engelbach, The Aswân Obelisk; with Remarks on the Ancient Engineering, Cairo,
+IFAO, 1922.
+Epigraphic Survey, Kheruef – The Epigraphic Survey, The Tomb of Kheruef, Chicago, IL, UCP, 1980.
+Epigraphic Survey, Khonsu – The Epigraphic Survey, The Temple of Khonsu, 1. Scenes of King Herihor in the
+Court, Chicago, IL, UCP, 1979.
+Eyre, ‘Work in the New Kingdom’ – C.J. Eyre, ‘Work and the organisation of work in the New Kingdom.’
+In M.A. Powell, ed., Labor in the Ancient Near East, New Haven, CT, American Oriental Society,
+1987, 167– 221.
+Eyre, ‘Work in the Old Kingdom’ – C.J. Eyre, ‘Work and the organisation of work in the Old Kingdom.’
+In M.A. Powell, ed., Labor in the Ancient Near East, New Haven, CT, American Oriental Society,
+1987, 5– 47.
+Fairservis, Hierakonpolis – 1978 W.A. Fairservis, The Hierakonpolis Project, Season January to March 1978.
+Excavation of the Temple Area on the Kom el Gemuwia, Poughkeepsie, NY, Vassar College, 1983.
+Fakhry, Dahshur Reliefs – A. Fakhry, The Monuments of Sneferu at Dahshur II. The Valley Temple I. The Temple
+Reliefs, Cairo, General Organisation for Government Printing Offices, 1961.
+Abbreviations
+xii
+Faulkner, Coffin Texts – R.O. Faulkner, The Ancient Egyptian Coffin Texts, revised edn of 3 vols in 1,
+Warminster, A&P, 2004, 2007.
+Firth and Quibell, Step Pyramid – C.M. Firth and J.E. Quibell, The Step Pyramid, 2 vols, Cairo, IFAO, 1935.
+Frankfort, Kingship – H. Frankfort, Kingship and the Gods, Chicago, IL, UCP, 1948.
+Frankfort, Mural Paintings – H. Frankfort, ed., The Mural Paintings of El ‘Amarneh, London, EES, 1929.
+Frankfort and Pendlebury, COA II – H. Frankfort and J.D.S. Pendlebury, The City of Akhenaten II, London,
+EES, 1933.
+Freed, Pharaohs of the Sun – R.E. Freed, Y.J. Markowitz and S.H. D’Auria, eds, Pharaohs of the Sun: Akhenaten,
+Nefertiti, Tutankhamen, Boston, MA, MFA, 1999.
+Friedman, Egypt and Nubia – R. Friedman, ed., Egypt and Nubia: Gifts of the Desert, London, BM, 2002.
+Gardiner and Faulkner, Wilbour – A.H. Gardiner and R.O. Faulkner, The Wilbour Papyrus I– IV, Brooklyn,
+BroM and Oxford, OUP, 1941– 52.
+Gillings, Mathematics – R.J. Gillings, Mathematics in the Time of the Pharaohs, Cambridge, MA, MIT
+Press, 1972.
+Glanville, Studies Griffith – S.R.K. Glanville, ed., Studies Presented to F.Ll. Griffith, London and Oxford, OUP,
+1932.
+Grandet, Harris I – P. Grandet, Le papyrus Harris I (BM 9999), 2 vols, Cairo, IFAO, 1994.
+Griffith, Papyri – F.Ll. Griffith, The Petrie Papyri: Hieratic Papyri from Kahun and Gurob, London, Quaritch, 1898.
+Guksch, Grab des Benja – H. Guksch, Das Grab des Benja, gen. Paheqamen: Theben No. 343, Mainz, von
+Zabern, 1978.
+Häggman, Deir el- Medina – S. Häggman, Directing Deir el- Medina: the External Administration of the Necropolis,
+Uppsala, Uppsala University, 2002.
+Haring, Divine Households – B.J.J. Haring, Divine Households: Administrative and Economic Aspects of the New
+Kingdom Royal Memorial Temples in Western Thebes, Leiden, NINO, 1997.
+Hassan, Gîza IV – Selim Hassan, Excavations at Gîza IV (1932– 33), Cairo, Government Press, 1943.
+Hayes, Papyrus – W.C. Hayes, A Papyrus of the Late Middle Kingdom in the Brooklyn Museum, Brooklyn, NY,
+BroM, 1955.
+Helck, Beziehungen – W. Helck, Die Beziehungen Ägyptens zu Vorderasien im 3. und 2. Jahrtausend v.Chr, 2nd
+edn, Wiesbaden, Harrasowitz, 1971.
+Helck, Materialien – W. Helck, Materialien zur Wirtschaftsgeschichte des Neuen Reiches, 6 vols, Wiesbaden, Verlag
+der Akademie der Wissenschaften und der Literatur, Mainz and Steiner, 1960– 9.
+Hölscher, Medinet Habu I – U. Hölscher, The Excavation of Medinet Habu I. General Views and Plans, Chicago,
+IL, UCP, 1934.
+Hölscher, Medinet Habu V – U. Hölscher, The Excavation of Medinet Habu V. Post- Ramessid Remains, Chicago,
+IL, UCP, 1954.
+Hölscher, Mortuary Temple I – U. Hölscher, The Mortuary Temple of Ramses III Part I, Chicago, IL, UCP, 1941.
+Imhausen, Mathematics – A. Imhausen, Mathematics in Ancient Egypt: a Contextual History, Princeton, NJ, and
+Oxford, Princeton University Press, 2016.
+Izreʾel, Tablets – S. Izre’el, The Amarna Scholarly Tablets, Groningen, Styx, 1997.
+James, Pharaoh’s People – T.G.H. James, Pharaoh’s People: Scenes from Life in Imperial Egypt, London,
+Batsford, 1984.
+Janssen, Commodity Prices – J.J. Janssen, Commodity Prices from the Ramessid Period, Leiden, Brill, 1975.
+Janssen, Ship’s Logs – J.J. Janssen, Two Ancient Egyptian Ship’s Logs, Leiden, Brill, 1961.
+Janssen, Village Varia – J.J. Janssen, Village Varia: Ten Studies on the History and Administration of Deir el- Medina,
+Leiden, NINO, 1997.
+Kemp, All that Matters – B. Kemp, All that Matters: Ancient Egypt, London, John Murray Learning, 2015 (incl.
+eBook ISBN 978 1 44418621 5).
+Abbreviations
+xiii
+Kemp, Anatomy2 — B.J. Kemp, Ancient Egypt: Anatomy of a Civilization, 2nd edn, London and New York,
+Routledge, 2006.
+Kemp, City – The City of Akhenaten and Nefertiti: Amarna and Its People, London, T&H, 2013.
+Kemp, How to Read – B. Kemp, How to Read the Egyptian Book of the Dead, London, Granta, 2007.
+Kemp and Garfi, Survey – B.J. Kemp and S. Garfi, A Survey of the Ancient City of El-‘Amarna, London,
+EES, 1993.
+Kemp and Stevens, Busy Lives – B. Kemp and A. Stevens, Busy Lives at Amarna: Excavations in the Main City
+(Grid 12 and the House of Ranefer, N49.18), 2 vols, London, EES and Amarna Trust, 2010.
+Kitchen, Ramesside Inscriptions – K.A. Kitchen, Ramesside Inscriptions: Historical and Biographical, 8 vols,
+Oxford, Blackwell, 1968– 90.
+Kitchen, Ramesside Inscriptions (Trans) – K.A. Kitchen, Ramesside Inscriptions: Translated and Annotated, 7 vols,
+Malden, MA/ Cambridge, MA, and Oxford, Wiley- Blackwell, 1993– 2014.
+Kitchen, Third Intermediate – K.A. Kitchen, The Third Intermediate Period (1100– 650 bc), 3rd edn, Warminster,
+A&P, 1995.
+Kruchten, Horemheb – J.- M. Kruchten, Le décret d’Horemheb, Brussels, Université de Bruxelles, 1981.
+Laboury, Akhénaton – D. Laboury, Akhénaton, Paris, Pygmalion, 2010.
+Lacovara, Royal City – P. Lacovara, The New Kingdom Royal City, London and New York, KPI, 1997.
+Landström, Ships – B. Landström, Ships of the Pharaohs: 4000 Years of Egyptian Shipbuilding, London, Allen
+& Unwin, 1970.
+Lauer, La pyramide – J.- Ph. Lauer, La pyramide à degés, 2 vols, Cairo, IFAO, 1936.
+Leahy, Malkata – M.A. Leahy, Excavations at Malkata and the Birket Habu 1971– 1974. The Inscriptions,
+Warminster, A&P, 1978.
+Lehner, ‘Labor’ – M. Lehner, ‘Labor and the pyramids: the Heit el- Ghurab “Workers Town” at Giza.’
+In P. Steinkeller and M. Hudson, eds, Labor in the Ancient World, vol. V, Dresden, ISLET- Verlag, 2015,
+397– 522.
+Lehner and Hawass, Giza – M. Lehner and Z. Hawass, Giza and the Pyramids, London, T&H, 2007.
+Lichtheim, Literature – M. Lichtheim, Ancient Egyptian Literature: a Book of Readings, 3 vols, Berkeley, CA,
+Los Angeles, CA, and London, UCP, 1973– 80.
+Lozach and Hug, L’habitat – J. Lozach and G. Hug, L’habitat rural en Égypte, Cairo, IFAO and Société royale
+de géographie d’Égypte, 1930.
+McDowell, Jurisdiction – A.G. McDowell, Jurisdiction in the Workmen’s Community of Deir el- Medîna, Leiden,
+NINO, 1990.
+McDowell, Village Life – A.G. McDowell, Village Life in Ancient Egypt: Laundry Lists and Love Songs, Oxford
+and New York, OUP, 1999.
+Manniche, Colossi – L. Manniche, The Akhenaten Colossi of Karnak, Cairo and New York, AUC Press, 2010.
+Manuelian, Studies – P. Der Manuelian, ed., Studies in Honor of William Kelly Simpson, 2 vols, Boston, MA,
+MFA, 1996.
+Martin, Royal Tomb – G.T. Martin, The Royal Tomb at El-‘Amarna, 2 vols, London, EES, 1974, 1989.
+Mellink and Filip, Frühe Stufen – M.J. Mellink and J. Filip, Frühe Stufen der Kunst, Berlin, Propyläen
+Verlag, 1974.
+Midant- Reynes and Tristant, Origins – B. Midant- Reynes and Y. Tristant, eds, Egypt at Its Origins
+2. Proceedings of the International Conference ‘Origin of the State, Predynastic and Early Dynastic Egypt’, Toulouse
+(France), 5th– 8th September 2005, Leuven and Dudley, MA, Peeters, 2008.
+Moeller, Urbanism – N. Moeller, The Archaeology of Urbanism in Ancient Egypt: from the Predynastic Period to
+the End of the Middle Kingdom, New York, CUP, 2016.
+Mond and Myers, Temples of Armant – Sir R. Mond and O.H. Myers, Temples of Armant, 2 vols, London,
+EES, 1940.
+Abbreviations
+xiv
+Moran, Amarna Letters – W.L. Moran, The Amarna Letters, Baltimore, MD, and London, Johns Hopkins
+University Press, 1992.
+Muhs, Economy – B. Muhs, The Ancient Egyptian Economy, 3000–30 bce, Cambridge, CUP, 2016.
+Murnane, Guide – W. Murnane, United with Eternity: a Concise Guide to the Monuments of Medinet Habu,
+Chicago, IL, UCP and Cairo, AUC Press, 1980.
+Murnane, Texts – W.J. Murnane, Texts from the Amarna Period in Egypt, Atlanta, GA, Society of Biblical
+Literature, 1995.
+Naville, XIth Dynasty Temple II – E. Naville, The XIth Dynasty Temple of Deir el- Bahari II, London, EEF, 1910.
+Nelson and Hölscher, Work – H.H. Nelson and U. Hölscher, Work in Western Thebes 1931– 33, Chicago,
+IL, UCP, 1934.
+Nicholson and Shaw, Materials – P.T. Nicholson and I. Shaw, eds, Ancient Egyptian Materials and Technology,
+Cambridge, CUP, 2000.
+O’Connor, ‘Geography of settlement’ – D.B. O’Connor, ‘The geography of settlement in ancient Egypt.’
+In Ucko et al., Man, Settlement, 681– 5.
+Papazian, Domain – H. Papazian, Domain of Pharaoh: the Structure and Components of the Economy of Old
+Kingdom Egypt, Hildesheim, Gerstenberg, 2012.
+Park and Greenberg, Finance – T.K. Park and J.B. Greenberg, The Roots of Western Finance: Power, Ethics, and
+Social Capital in the Ancient World, Lanham, MD, Lexington Books, 2017.
+Parkinson, Poetry and Culture – R.B. Parkinson, Poetry and Culture in Middle Kingdom Egypt; a Dark Side to
+Perfection, London and New York, Continuum, 2002; London and Oakville, CT, Equinox, 2010.
+Parkinson, Voices – R.B. Parkinson, Voices from Ancient Egypt: an Anthology of Middle Kingdom Writings,
+London, BM, 1991.
+Patch, Dawn – D.G. Patch, ed., Dawn of Egyptian Art, New York, MMA, 2011.
+Peden, Historical Inscriptions – A.J. Peden, Egyptian Historical Inscriptions of the Twentieth Dynasty, Jonsered,
+Paul Åströms Förlag, 1994.
+Peden, Ramesses IV – A.J. Peden. The Reign of Ramesses IV, Warminster, A&P, 1994.
+Peet, Rhind – T.E. Peet, The Rhind Mathematical Papyrus; British Museum 10057 and 10058, Liverpool,
+University Press and London, Hodder & Stoughton, 1923.
+Peet, Tomb- robberies – T.E. Peet, The Great Tomb- robberies of the Twentieth Egyptian Dynasty, Oxford, Clarendon
+Press, 1930.
+Peet and Woolley, COA I – T.E. Peet and C.L. Woolley, The City of Akhenaten I, London, EES, 1923.
+Pendlebury, COA III – J.D.S. Pendlebury, The City of Akhenaten III, 2 vols, London, EES, 1951.
+Petrie, Abydos – W.M.F. Petrie, Abydos, 2 vols, London, EEF, 1902, 1903.
+Petrie, Illahun – W.M.F. Petrie, Illahun, Kahun and Gurob, London, Nutt, 1891.
+Petrie, Koptos – W.M.F. Petrie, Koptos, London, Quaritch, 1896.
+Petrie, Palettes – W.M.F. Petrie, Ceremonial Slate Palettes and Corpus of Proto- dynastic Pottery, London,
+BSAE, 1953.
+Petrie, Royal Tombs I, II – W.M.F. Petrie, Royal Tombs of the First Dynasty, London, EEF, 1900; Royal Tombs of
+the Earliest Dynasties, London, EEF, 1901.
+Petrie and Quibell, Naqada – W.M.F. Petrie and J.E. Quibell, Naqada and Ballas, London, Quaritch, 1896.
+Petrie et al., Lahun – W.M.F. Petrie, G. Brunton and M.A. Murray, Lahun II, London, BSAE and
+Quaritch, 1923.
+Piankoff, Litany – A. Piankoff, The Litany of Ra, New York, Bollingen Foundation, 1964.
+Pinch, Votive Offerings – G. Pinch, Votive Offerings to Hathor, Oxford, GI, 1993.
+Posener- Kriéger, Les archives – P. Posener- Kriéger, Les archives du temple funéraire de Néferirkare- Kakai (Les
+Papyrus d’Abousir); Traduction et commentaire, Cairo, IFAO, 1976.
+Posener- Kriéger, Mélanges Gamal Mokhtar – P. Posener- Kriéger, ed., Mélanges Gamal Eddin Mokhtar I, Cairo,
+IFAO, 1985.
+Abbreviations
+xv
+Posener- Kriéger and de Cenival, Abu Sir Papyri – P. Posener- Kriéger and J.L. de Cenival, Hieratic Papyri in
+the British Museum. 5th series: The Abu Sir Papyri, London, BM, 1968.
+Pritchard, Texts – J.B. Pritchard, ed., Ancient Near Eastern Texts, Relating to the Old Testament, 3rd edn (with
+Supplement), Princeton, NJ, Princeton University Press, 1969.
+Quibell, Archaic Objects – J.E. Quibell, Catalogue général des antiquités égyptiennes du Musée du Caire: Archaic
+Objects, Cairo, IFAO, 1904– 05.
+Quibell and Green, Hierakonpolis II – J.E. Quibell and F.W. Green, Hierakonpolis II, London, Quaritch, 1902.
+Quibell and Petrie, Hierakonpolis I – J.E. Quibell and W.M.F. Petrie, Hierakonpolis I, London, Quaritch, 1900.
+Quirke, Administration – S. Quirke, The Administration of Egypt in the Late Middle Kingdom: the Hieratic
+Documents, New Malden, SIA Publications, 1990.
+Quirke, Exploring Religion – S. Quirke, Exploring Religion in Ancient Egypt, Chichester, Wiley, 2005.
+Quirke, Lahun Studies – S. Quirke, ed., Lahun Studies, Reigate, Rubicon Press, 1998.
+Ranke, Personennamen – H. Ranke, Die ägyptischen Personennamen, 3 vols, Glückstadt, Augustin, 1935– 76.
+Ray, Reflections – J. Ray, Reflections of Osiris: Lives from Ancient Egypt, London, Profile, 2001.
+Régen and Soukiassian, Gebel el- Zeit – I. Régen and G. Soukiassian, Gebel el- Zeit II. Le materiel inscrit.
+Moyen- Empire– Nouvel Empire, Cairo, IFAO, 2008.
+Reisner, Mycerinus – G.A. Reisner, Mycerinus: the Temples of the Third Pyramid at Giza, Cambridge, MA,
+HUP, 1931.
+Reymond, Mythical Origin – E.A.E. Reymond, The Mythical Origin of the Egyptian Temple, Manchester,
+Manchester University Press and New York, Barnes & Noble, 1969.
+Robichon and Varille, Temple primitif – C. Robichon and A. Varille, Description sommaire du temple primitif
+de Médamoud, Cairo, IFAO, 1940.
+Robins and Shute, Rhind – G. Robins and C. Shute, The Rhind Mathematical Papyrus: an Ancient Egyptian
+Text, London, BM, 1987.
+Rossi, Architecture – C. Rossi, Architecture and Mathematics in Ancient Egypt, Cambridge, CUP, 2004.
+Ryholt, Political Situation – K.S.B. Ryholt, The Political Situation in Egypt during the Second Intermediate Period
+c. 1800– 1550 bc, Copenhagen, Museum Tusculanum Press, 1997.
+Sandars, Sea Peoples – N.K. Sandars, The Sea Peoples: Warriors of the Ancient Mediterranean, revised edn,
+London, T&H, 1985.
+Schauer, Ungeplante Siedlungen – E. Schaur, Ungeplante Siedlungen/ Non- planned Settlements, Mitteilungen des
+Instituts für Leichte Flächentragwerke, IL, Universität Stuttgart, 39, Stuttgart, Karl Krämer, 1992.
+Schiff Giorgini et al., Soleb V – M. Schiff Giorgini, C. Robichon, J. Leclant and N. Beaux, Soleb V. Le temple,
+bas- reliefs et inscriptions, Cairo, IFAO, 1998.
+Schott, Kanais – S. Schott, Kanais. Der Tempel Sethos I. im Wâdi Mia, Göttingen, V&R, 1961.
+Sethe, Lesestücke – K. Sethe, Ägyptische Lesestücke zum Gebrauch im akademischen Unterricht, Leipzig,
+Hinrichs, 1928.
+Seyfried, In the Light – F. Seyfried, ed., In the Light of Amarna. 100 Years of the Nefertiti Discovery, Berlin,
+Ägyptisches Museum und Papyrussammlung, Staatliche Museen zu Berlin, 2012.
+Shafer, Temples – B.E. Shafer, ed., Temples of Ancient Egypt, Ithaca, NY, CoUP, 1997.
+Simpson, Heka- nefer – W.K. Simpson, Heka- nefer and the Dynastic Material from Toshka and Arminna, New
+Haven, CT, Peabody Museum and Philadelphia, PA, University Museum, 1963.
+Simpson, Literature – W.K. Simpson, ed., The Literature of Ancient Egypt: an Anthology of Stories, Instructions,
+Stelae, Autobiographies, and Poetry, Cairo, AUC and Yale, CT, YUP, 2005.
+Smith, Askut – S.T. Smith, Askut in Nubia: the Economics and Ideology of Egyptian Imperialism in the Second
+Millennium bc, London and New York, Routledge International, 1995.
+Smith and Redford, Project I – R.W. Smith and D.B. Redford, The Akhenaten Temple Project I, Warminster,
+A&P, 1976.
+Abbreviations
+xvi
+Stevens, Akhenaten’s Workers – A. Stevens, Akhenaten’s Workers: the Amarna Stone Village Survey, 2005– 2009,
+2 vols, London, EES and Amarna Trust, 2012.
+Stevens, Religion – A. Stevens, Private Religion at Amarna: the Material Evidence, Oxford, Oxbow, 2006.
+Stevenson Smith, Art and Architecture – W. Stevenson Smith, The Art and Architecture of Ancient Egypt, 3rd edn,
+New Haven, CT, and London, YUP, 1998.
+Stewart, Petrie Collection – H.M. Stewart, Egyptian Stelae, Reliefs and Paintings from the Petrie Collection, 3 vols,
+Warminster, A&P, 1976, 1979, 1983.
+Strudwick, Old Kingdom – N. and H. Strudwick, eds, Old Kingdom, New Perspectives: Egyptian Art and
+Archaeology 2750– 2150 bc, Oxford and Oakville, CT, Oxbow, 2011.
+Strudwick, Texts – N. Strudwick, Texts from the Pyramid Age, Leiden, Brill, 2005.
+Teeter, Origins – E. Teeter, ed., Before the Pyramids: the Origins of Egyptian Civilization, Chicago, IL, UCP, 2011.
+Tiradritti, Cairo Museum – F. Tiradritti, The Cairo Museum: Masterpieces of Egyptian Art, London, T&H, 1999.
+Ucko et al., Man, Settlement – P.J. Ucko, R. Tringham and G.W. Dimbleby, eds, Man, Settlement and Urbanism,
+London, Duckworth, 1972.
+van den Boorn, Duties – G.P.G. van den Boorn, The Duties of the Vizier: Civil Administration in the Early
+New Kingdom, London and New York, KPI, 1988.
+van den Brink, Nile Delta – E.C.M. van den Brink, ed., The Nile Delta in Transition: 4th– 3rd Millennium bc,
+Tel Aviv, van den Brink, 1992.
+Vandersleyen, Das alte Ägypten – C. Vandersleyen, ed., Das alte Ägypten, Berlin, Propyläen Verlag, 1975.
+van Dijk, Mouthful of Dust – J. van Dijk, ed., Another Mouthful of Dust: Egyptological Studies in Honour of
+Geoffrey Thorndike Martin, Leuven, etc., Peeters, 2016.
+Vercoutter, Mirgissa – J. Vercoutter, Mirgissa I, Paris, Mission archéologique française au Soudan, 1970.
+Vernus, Affairs – P. Vernus, Affairs and Scandals in Ancient Egypt, Ithaca, NY, and London, CoUP, 2003.
+Vogel, Festungen – C. Vogel, Ägyptische Festungen und Garnisonen bis zum Ende des Mittleren Reiches,
+Hildesheim, Gerstenberg, 2004.
+Vogel, Fortifications – C. Vogel, The Fortifications of Ancient Egypt 3000– 1780 bc, Oxford and New York,
+Osprey, 2010.
+Waddell, Manetho – W.G. Waddell, Manetho, London, Heinemann, 1948.
+Warburton, State and Economy – D.A. Warburton, State and Economy in Ancient Egypt: Fiscal Vocabulary of the
+New Kingdom, Freibourg, Universitätsverlag and Göttingen, V&R, 1997.
+Weatherhead, Palace Paintings – F. Weatherhead, Amarna Palace Paintings, London, EES, 2007.
+Wegner, Sunshade Chapel – J. Wegner, The Sunshade Chapel of Meritaten from the House- of- Waenre of Akhenaten,
+Philadelphia, PA, University of Pennsylvania Museum of Archaeology and Anthropology, 2017.
+Wente, Letters – E. Wente, Letters from Ancient Egypt, Atlanta, GA, Society of Biblical Literature, 1990.
+Wildung, Rolle – D. Wildung, Die Rolle ägyptischer Könige im Bewusstsein ihrer Nachwelt I. Posthume Quellen
+über die Könige der ersten vier Dynastien, Berlin, Hessling, 1969.
+Wilkinson, Annals – T.A.H. Wilkinson, Royal Annals of Ancient Egypt: the Palermo Stone and Its Associated
+Fragments, London and New York, KPI, 2000.
+Wilkinson, Temples – R.H. Wilkinson, The Complete Temples of Ancient Egypt, London, T&H, 2000.
+Winlock, Models – H.E. Winlock, Models of Daily Life in Ancient Egypt, New York, MMA, 1955.
+Zingarelli, Trade – A.P. Zingarelli, Trade and Market in New Kingdom Egypt: Internal Socio- economic Processes
+and Transformations, Oxford, Archaeopress, 2010.
+newgenprepdf
+1
+INTRODUCTION
+The Invention of Consciousness: ‘In English we use the word “invention” in two ways. First, to
+mean a new device or process developed by experimentation, and designed to fulfill a practical goal.
+Second, to mean a mental fabrication, especially a falsehood, developed by art, and designed to please
+or persuade. In this talk I’ll argue that human consciousness is an invention in both respects. First, it
+is a cognitive faculty, evolved by natural selection, designed to help us make sense of ourselves and
+our surroundings. But then, second, it is a fantasy, conjured up by the brain, designed to change the
+value we place on our existence.’
+Professor Nick Humphrey, announcement for a lecture at
+Wolfson College, Cambridge, 13 May 2016
+In the mid- 1980s the then history commissioning editor of Routledge, Andrew Wheatcroft, asked me to
+write a general book about ancient Egypt, which I duly did. I recall a wish somehow to convey an angry
+feeling that the story of ancient Egypt is simultaneously a record of human achievement in the distant past
+and a pointer to a future failure of humanity – which is with us now – to face the destructive consequences
+of many of those achievements. I would like history to be a record of the struggle to be free of the craving
+for power already evident in the Bronze Age and subsequently twisted into even more awful shapes by
+fierce creeds and strict ideologies. Progress is there, to be sure, but it is painfully slow, fitful and subject
+to reversal. Rightness of cause, as seen across the us- versus- them divide, still ensnares too many minds.
+‘Nationalism and tribalism and faith – these are the driving forces now, and they are tearing apart transnational
+institutions all over the world.’1
+Since, however, I had not been asked to write a polemic, my wish broke the surface only occasionally,
+and the same remains true of this further revised edition. None the less, the longer view which archaeology
+and ancient history affords does invite one to take stock of how humanity has been faring for the past five
+thousand years. Remote though one’s studies might appear to be, they are of events and processes which
+are parts of the continuum of which the current world is a product. Many deep- seated aspects of ancient
+societies have proved to be remarkably enduring, changing their clothes as fashions have moved on so that
+they ever seem a natural part of the contemporary landscape. They are mostly to do with collective identity
+and sources of authority, and especially deserve to be held up to critical scrutiny, for they are often the least
+benign parts of our inheritance.
+In producing a revised edition for the second time I have tried to accomplish several things at once.
+One is simply an update on discoveries and newer publications, though I have again been less thorough
+Introduction
+2
+than I should like. Recent years have seen an outpouring of discoveries and studies that requires almost
+full- time attention properly to embrace whilst, at the same time, my own priority has been continuing field
+research at Tell el- Amarna (Amarna for short). For the first revision, I responded to a suggestion that the
+later centuries be included as well, although this is not my speciality, but I have now (again in response to
+outside suggestions) reverted to something closer to the original scheme. In consequence the book ends
+with a separate chapter on Amarna.
+Seen through the lens of culture
+The opportunity to revise is also another stage in personal exploration (and thus something of a luxury),
+an attempt to clarify the meaning of the studies upon which I have been engaged for over half a century.
+I have found myself returning time and again to ask myself the question of just what, whether we study
+ancient Egypt or our own present society, we are really looking at. I find a beginning in the most obvious
+fact of all. Past and present, we are all – readers of this text and ancient Egyptians alike – members of the
+same species, Homo sapiens, equipped with a brain that physically has remained unchanged since our species
+emerged. Abundant written sources from ancient Egypt confirm the conclusion that we all share, and have
+in the past shared, a common consciousness and substratum of unconscious behaviour. We all face the same
+basic experience, that of existing as a uniquely important individual, looking out into a world that recedes
+away from the circle of daily life to a wider society of common culture, to more distant and ‘foreign’ societies
+lying beyond, all within the context of earth and heavens and the powers of luck, fate, destiny, the will
+of supernatural (I would prefer to say imaginary) agents and, now that we have become conscious of them,
+the immutable forces of scientific laws. We search for a theory of everything. Its components come mixed
+up together, jostling for attention, and in thought and conversation we flit easily from one to another. We
+live and keep our reason by virtue of the way that our minds select from the ceaseless flood of experiences
+that crowd around and flow past us from birth to death and arrange what appears to be significant into
+patterns. Those patterns, and the responses that we make – fleetingly in speech and more permanently
+in the shape of institutions and monuments – are our culture. Culture begins as a mental therapy, a filter
+passed to us from recent generations, to protect us from being overwhelmed by the information that our
+senses collect, and through it we make sense of the world. On the one hand, therefore, I am trying to be
+an objective observer, examining evidence from ancient Egypt as if I were a botanist looking at species of
+ferns. Yet I can only make sense of the evidence by accepting that I myself am part of it, and how I join up
+the fragments depends upon the fact that I am human, too, living within my own cultural sphere. There is
+no clear and absolute answer as to where the line should be drawn between too much empathy and too
+little.
+One could argue that, since differences in personality and in local and temporal setting combine to
+ensure that no two people are ever quite the same, there have been as many cultures as there have been
+human beings. But in practice culture is a collective phenomenon. Its nature encourages generalization (in
+which process we, as observers, are easily led to emphasize common features and to gloss over the extent to
+which people develop their own personal views of the world). A characteristic of being human is a wish to
+be part of a broader group with a distinctive identity, founded in language, religion, citizenship, guild, local
+society and so on. Moreover, through hearsay and some of the written and visual signals of culture people
+imagine that they belong not only to the community which surrounds them but also to a broader ‘people’
+or ‘nation’ which defines itself, at least in part, by how different it appears to be from others. Shared identity
+is one of the most powerful and alluring sources of mental order. It provides a ready- made answer to
+the question: who am I? It also provides a basis for separating myself as observer from the people who are
+the object of my study. Chapter 1 explores for ancient Egypt what that collective identity was, attempting
+to separate culture from ethnicity.
+Introduction
+3
+Creative minds within the community strengthen the bonds of identity by the exercise of the imagination.
+They invent (though it might seem at the time to be revelation) myths, symbols and ideologies which
+are, in their time, essential knowledge. Ambitious individuals create from the framework a basis of power,
+establishing systems of conduct which direct the energies and resources of others. The history of the world
+is not an account of the development of innumerable pools of merging cultures and points of consciousness.
+It is the record of the subjugation of people to polities of increasing size, ambition and complexity,
+sometimes with and sometimes without their consent.
+The instrument of subjugation is hierarchy, or more precisely dominance hierarchy. This sustains a way
+of life in which people commonly have unequal access to resources and unequal degrees of authority over
+others. The balancing mechanism is deference. Deference is an inbuilt scale of sensitivities through which
+many people find satisfaction in serving those whom they see are more powerful than themselves whilst,
+at the same time, accepting the services of those less powerful. Deference also, however, co- exists with
+its opposite, angry rejection of subservience. Dominance hierarchy is common in nature. It is present to
+different degrees amongst primates, although it is not an automatic consequence of complexity amongst
+living things. It can be contrasted with a common way of life amongst (for example) ant colonies, in which
+self- organization or self- management of work arrangements is prominent, allowing worker ants to be, in
+their varied tasks, interchangeable with one another.2 Despite what is common in primate societies, for the
+greater part of the time that fully evolved humans have lived (at least 200,000 years) dominance hierarchy
+probably barely existed. In their hunter- gatherer groups (of a few dozen individuals) it was (to judge from
+studies of surviving societies of this kind) kept in check through various forms of sanction that achieved
+socio- political levelling and thus a way of life in which some measure of equality prevailed.3 Moreover,
+the way we give priority to the wielding of power in studies of the past (and present) tends to obscure
+the power of self- organization which developed human societies also possess. An example (the building
+of Amarna) will be explored in Chapter 8, which is to be contrasted with settlements where the shape
+expresses hierarchy (Chapter 5 is largely about examples from the Middle Kingdom).
+Signs in the archaeological record of the Near East that groups were breaking away from self- restraint,
+allowing dominance hierarchies to establish themselves, begin to appear in the ninth millennium BC (though
+considerably later in Egypt, seemingly by as much as four thousand years). Once started, the process – still
+the subject of much speculation – reinforces itself almost irreversibly. Individuals appreciate the scope that
+exists for ever grander ambitions and, in a time that is short by the timescale of prehistory and human
+evolution, states begin to appear. States entrench dominance hierarchies not only through the wielding
+of coercive power but also through the development of specialist groups to whom the power of sanction
+is delegated: scribes, priests, soldiers and so on. Most inhabitants of a state thus take their place within a
+system of varied opportunities. The state provides both the most practical framework within which we can
+study culture, and is, at the same time, one of the most conspicuous aspects of culture. The nature of the
+ancient Egyptian state and its wealth of devices – myth, symbol and institution – to manipulate minds and
+to direct the lives of its people are at the centre of this book.
+In this way also the lives and views of a whole population are reduced to a singularity. This serves as
+a great convenience to all, including ourselves when looking at ancient Egypt. In treating them as a bloc
+we can say ‘the ancient Egyptians did this’, or we can move to a personification of the kind: ‘Egypt in the
+New Kingdom expanded her empire’ (though never ‘his empire’, at least in the English language). What
+is at work here is the style of thinking that is unique to Homo sapiens: the perspective- taking capacity of
+the imagination – the ability inwardly to see oneself as an observer of people who are primarily held only
+within the mind and can be generalized to the point of singularity – and its boundless ability to invent.
+Together they allow for people, things and abstract concepts to be incorporated within an imaginary world
+in which they have a role which gives them attributes beyond whatever can be immediately sensed. They
+have, more precisely, a transcendental role.4
+Introduction
+4
+The transcendental potential of the imagination creates kings from dominant individuals; and not only
+kings but the abstract concept of kingship, explored and expressed through myth and performance and
+providing the concept of ‘legitimacy’, which in turn allows individuals less personally given to dominating
+others to succeed to the office of king, so helping the maintenance of an orderly society. It creates states
+and nations from agglomerations of people, and priests from persons who act in a particular way in a shrine
+(and who, when not doing this, might, at least in ancient Egypt, be a neighbour with whom one otherwise
+has normal dealings). Each king, each state, each priest is something which gathers in the imagination colourful
+and ornate characteristics which convey the respect, even awe, inherent within deference. Moreover,
+in the imagination these generalized groups can act out dramas, narratives in which dynasties rise and fall
+and battle honours are exchanged. It helps if named individuals are present, but archaeologists, like social
+scientists, are used to creating narratives about groups of people who are defined, not by names or personalities,
+but by their place in society, something which again transcends their individual characteristics.
+Generalizing allows dialogue to occur. It also obscures an awkward truth. Variety is an intrinsic part
+of organic life, in appearance and, when it is present, in consciousness. It provides cats with individual
+characters, makes political trends hard to analyse and predict, polarizes society on occasion and guarantees
+that every orthodoxy produces its heresies. The inconsistency, compromise, overlap and fuzzy boundaries
+that are inherently present in human thinking can be covered up but not suppressed. That covering- up
+need not be purposely done. The development of a dominant narrative – such as we find in ancient Egypt
+centred on Pharaoh and his subjects – can unconsciously have the same effect.
+Seen through the lens of knowledge: theories of everything
+Narratives built around transcendental roles carry us into the realm of myth and thus into the nature of
+knowledge. We live by myth and should not regard it as standing in opposition to rational knowledge. Myth
+and rational knowledge overlap when we use phrases like ‘I am generally aware of ’, ‘I have a smattering of
+knowledge of ’, and try to explain to others (assuming we are not experts) how genes and chromosomes
+work or what is the nature of electricity. Many of the facts are likely to be wrong, some of the elements
+misunderstood, and the general picture woefully incomplete. What matters to the teller is that it has the
+shape of a story and that is what myth really is. Myth is the more obviously story- telling form of what is
+otherwise metaphor. It pervades the sciences although its presence in a particular form is often not wholly
+apparent until it has been discarded. The history of the sciences reveals how the imagination includes the
+essential ability to produce knowledge which, in retrospect, is provisional. It meets the expectations of
+researchers for a time, but is later seen to be incomplete or even false in the light of further observation and
+thinking. What are those discarded explanations but myths? Much of what we think we know is provisional
+and relies upon our remarkable capacity to join up fragments, find patterns and turn them into stories. Lack
+of observational knowledge is no hindrance, for invention and myth- making seamlessly fill the gaps. ‘Belief ’
+is the acceptance of provisional or unverifiable knowledge.
+If I am truthful with myself much of my knowledge of my special field – Egyptology – is of this kind.
+The sources that I work with are tangible things, ‘facts’. They are tombstones in museums, pictures on
+temple walls, drawings of excavated pots. How they fit into a sensible set of explanations, however, requires
+a huge amount of creative infilling now embodied in traditions of understanding, nurtured in university
+departments, which have been growing for more than two centuries. My ancient Egypt remains, none the
+less, very much an imagined world, though I hope that it is, like a marquee in a wind, pegged to the ground
+at many points. The pegs in the case of this book are the endnotes which relate my statements to a large
+body of literature which stores factual information and often instructions as to where, in a museum or at an
+archaeological site, the original source is to be found. This is the crucial difference between what we might
+term ‘rational myth’ – my ludicrously inadequate working- knowledge of nuclear physics, or my better
+informed but still largely speculative account of, say, the workings of the ancient Egyptian economy – and
+Introduction
+5
+myth based wholly in the mind, on thought experiments. The history of thought has been of an increasing
+multiplication of myths, mostly of the former kind, allowing us to choose amongst them, and so giving us
+the power to discard those that we find inappropriate.
+In its craving for knowledge (and thus for complexity of thought) the human mind fills itself with a
+mix of what is verifiable (e.g. the cost of a goat that is based upon personal dealings with neighbours and
+in the marketplace; the repeatable experience that, if one follows instructions in a manual of arithmetic
+concerning the distribution of rations (pp. 177–8), the result is always the same) and what is not but is
+accepted anyway. This latter is the category of weird knowledge (or magical knowledge) – ‘the illusion
+of something with extraordinary otherworldly properties’5 – which simultaneously is the price we pay
+for having, through evolution, developed consciousness, and is the source of our inspirations and goals.
+In this category comes knowledge of ‘the gods’, the identification and usually the naming of the parts
+of a universe which exists within the imagination and is the response to the feeling that the ‘world is
+in fact not what it appears to be, but behind the world of appearances there lies a reality utterly unlike
+the world of our senses’.6 What ‘the gods’ are is not the same across cultures. Perhaps a definition which
+recognizes the one thing they have in common is ‘imaginary beings to which people ascribe extraordinary
+properties’.7
+In developing an understanding of their world Egyptians with an enquiring mind considered its constituent
+elements. What did and what did not possess an animating force? ‘Divine’ is a common modern
+translation of a key word but does not properly correspond to ancient experience, which could, for example,
+apply the word to the many elements, visible and invisible, of which a human individual was composed, and
+also to parts of the landscape (e.g. the eastern and western deserts; see below, p. 321). A healer, when preparing
+to confront an illness, instead of asking for help from the gods, for the moment assumed the identity
+of some of the most powerful of them in order to make effective threats against the demons of disease. It
+was as if the realm of the ‘divine’ were an invisible medium which all Egyptians occupied and which they
+easily shared with gods and the natural world. Over all knowledge and experience loomed the unstable
+balance between order and disorder, between justice and fairness and their opposites. In the absence of
+a more analytical style of thinking which was enriched by sceptical observation of the natural world (it
+would appear in Greece in the sixth century BC) the Egyptians had little more than the creative power of
+their imagination. Over the course of three thousand years, in a search for complexity in understanding,
+they invented richly detailed but fanciful knowledge of the elements of which the universe was composed,
+and ways in which people could interact with it.
+There is a widespread modern view, sometimes illustrated by pie- charts or in the pages of atlases, that
+the world and its population can be classified according to religion. It reflects the notion, which is of fairly
+recent origin, that ‘world religions’ is an important field of study.8 It can, moreover, be extended into the
+past, even to ancient Egypt, where ‘ancient Egyptian religion’ takes its place in a kind of genealogical tree
+of religions. The subject was initially defined by Christian thinking and then easily developed to embrace
+Islam. The concept works less well when the net is spread further, particularly to East Asia. What the
+components of ‘world religions’ have in common is that they offer a path of understanding, a route to
+knowledge of the self and to the world as a whole. But so do many other paths, from academic pursuits
+(even Egyptology) to ideas that attract the term ‘alternative’, their provability by logic and observation
+ranging from zero to the maximum point on the scale (with Egyptology somewhere in between; I hope
+towards the high- scoring end).
+The common habit, to which I have been prey for much of my life, is to put the ancient Egyptians’
+path (or paths) of understanding under the heading ‘religion’. ‘Religion’ at first sight seems to be a useful
+descriptive category, one drawer in a cabinet of classification which holds all of human experience. Yet it
+is difficult to avoid imbuing the word religion, as well as related words such as faith, belief, piety, spirituality
+and, of course, their opposites, such as superstition and blasphemy, with values that arise from two
+millennia of life within an official belief system (Christianity) that was, for a long time, forcefully imposed.
+Introduction
+6
+The energetic promotion of religion for so long has conditioned us to give to its vocabulary (the terms
+of which presume that the reader shares with the writer a similar deferential feeling towards gods) a particular
+weight which hinders rational consideration of people like the Egyptians who strove to attain
+understanding without feeling that they were following a special path. Religion, like so many concepts,
+can gain in clarity of definition when set against opposites, such as the pairings: religion/ atheism, ‘true’
+religion/ ‘false’ religion. But when such opposing modes of thought are absent (as was the case in ancient
+Egypt) ‘religion’ becomes almost synonymous with ‘life’. Why burden oneself with unnecessary terminology?
+Moreover, the gods that a person recognized – including one’s local god, one’s ‘city god’ – were not
+a strong part of their identity, of the kind that divided one person from another whose imaginative configuration
+was not the same. Another person’s preferences amongst the gods did not create an ‘otherness’.
+Yet this is the characteristic that most marks ‘religions’ as they subsequently developed and is, on its own, a
+reason for not defining an Egyptian religion.
+The unhelpfulness of conventional vocabulary surfaces in another way. Studies of many modern societies,
+through census returns and questionnaires, claim that religion (at least in ‘western’ societies) is waning
+or declining. But it is not declining into a vacuum of the imagination, which is where religion has its home.
+It is dissolving into myriad fragments of personal knowledge, in part collected from rational, including
+scientific, education and in part from the inventions of people’s consciousness. In its place is an increasing
+diffusion of ideas as to what (outside human agency, if anything at all) governs existence and to whom or
+to what one should offer deference other than idealized or transcendent fellow humans. It is a search for
+a theory of everything, of which ‘religion’ is one version (and this book is my version). The perceptions
+of the ancient Egyptians were similarly composed, but drawn from a far more limited pool of possibilities,
+necessarily so because they lived much further back along the path of development of human consciousness
+and of the creative powers of the imagination.
+Ancient Egypt was also part of the world in which monotheism developed. Monotheism is still very
+much with us. If you accept its central tenet it creates an evolutionary path into which ancient Egypt can be
+fitted.9 The figure of King Akhenaten stands out as particularly significant (Chapter 8). The path proceeds
+from the incomplete revelation of ‘false gods’ to the truth of a single god defined in a particular way and
+by a particular group. But other paths developed in the ancient world which eventually were eclipsed by
+monotheism, but never really went away and have gradually come back and now largely shape people’s
+outlook. They, too, can be seen as ancestral to parts of the broad spread of contemporary personal quests
+for understanding. One is illustrated by the teaching of the Greek philosopher Epicurus (342– 270 BC),
+known mostly from a long poetic discourse, On the Nature of Things, in Latin, of a Roman follower of his
+philosophy, Titus Lucretius Carus, who is thought to have died around 55 BC. Epicurus accepted that gods
+existed, as a natural phenomenon and an integral part of the universe, a universe composed of nothing
+but atoms and voids. They were, however, remote and wholly lacking interest in humans. According to the
+Epicurean view, ‘religion’ (Lucretius uses the word religio) referred not to belief in gods. That was to be
+taken for granted. Religion defined human behaviour when, vainly thinking that gods had an interest in
+people, humans sought to communicate with them and, by means of sacrifice, to influence their actions.
+(The word ‘religion’, used in this way, was thus what we might term ‘cult’.) Epicureans saw this as foolish
+and degrading. Moreover, they subscribed to the broadly held view in the classical world that the universe
+was governed by an interplay of two forces, Love and Strife. ‘Both, it would seem, are necessary for the
+world to flourish: without Love there would be no coherence or continuity, without Strife no activity or
+new creation. So Love and Strife need to be in balance or harmony. But the universe as a totality needs
+to cohere, and so the sum of things, we may infer, is the prevailing of Love over Strife.’10 The philosophy
+of Epicurus offered the individual a path towards greater understanding based upon close observation of
+the world, including natural phenomena, and through discussion with like- minded friends in pleasurable
+surroundings. Its elitist outlook limited its appeal, so that it is only since the Renaissance that it has quietly
+taken its place in mainstream culture, at least in the ‘west’.11 It is instructive that, although Epicurians
+Introduction
+7
+accepted the existence of gods, they are regarded as followers of a philosophy and not of a religion.
+Their polite acceptance that the gods existed but were powerless cleared the field for a rational universe.
+Omnipotent gods make this more difficult.
+For the ancient Egyptians the gods were also elements of knowledge of the universe. In some texts the
+Egyptians display an attitude of ironic distance from them. Moreover, the great theme of Egyptian thinking
+was how the universe stood on the edge of disorder but was saved by the achievement of harmony between
+its opposing forces, an earlier version (in a different cultural setting) of the opposition between Love and
+Strife. Although the Egyptians seem not to have had the intellectual clarity of classical philosophers they
+were mapping a pathway towards acceptance that the universe could be described by naming its parts,
+which followed cycles of action and reaction in which humans played no part, except in so far as they
+could, by their personal behaviour, influence the balance between chaos and order. One of the sets of parts
+which the Egyptians imagined comprised the irreducible elements of the universe took the form of four
+pairs (male and female) of abstractions. These were given collectively a name which must mean something
+like ‘the Eight Eternals’,12 and for which only tentative translations are possible, as with ‘timelessness, inertness,
+insubstantiality and blackness’; or even simply ‘no time, no energy, no mass, no light’, the conditions
+that cosmologists now ascribe to what preceded the ‘big- bang’ creation of the universe.13 The male aspects
+were accompanied by a picture of a frog and the females by a picture of a snake. Elements in the writings
+point to an underlying concept of wateriness. They came into existence within an imagined initial state,
+‘primaeval time’, by means of a single act of creation by a creator god, Shu (sunlight as it passes through
+the air). As a piece of abstract speculation on the origin of matter it should command some respect, even
+though its categories do not coincide with anyone else’s, including our own. This impersonal universe had
+a blurry overlap (which tends to confuse us) with imagined but approachable spirits of particular localities
+which slowly developed into places which drew in major resources to support a cult (some examples are
+given in Chapter 3).
+Half of the content of religion is knowledge (a theory of everything) which, with hindsight (as in the
+case of ourselves regarding ancient Egypt) or from the perspective of the outsider, has emerged wholly
+within the imagination. The other half is deference, a psychological determinant of dominance hierarchies
+and evidently what Lucretius had in mind when using the word religio. It manifests itself in responses to
+the feeling of awe when in the presence of superior authority, which is partly visible (kings) and partly in
+the imagination (gods). With those two concepts – knowledge and deference – the subject area of ‘religion’
+(for which the Egyptians themselves had no word) becomes redundant. ‘To explain religion is therefore
+a fundamentally misguided enterprise. It is rather like trying to explain the function of headlights while
+ignoring what motor cars are like and for.’14 And so another change in this revised edition is that I have
+abandoned the word ‘religion’ for pre- modern contexts and have been careful in the use of related words.
+One of them is ‘ritual’. In the words of one anthropologist: ‘ “What use does a term [ritual] have which
+brings together a man shaking hands, a man praying to his god, a man refusing to walk under a ladder, a
+man clapping at the end of a concert, a man placing medicine on his crops?” As there is almost nothing
+which such a category would reliably exclude, we can only agree that the answer is, “None at all”.’15
+I do not deny that the Egyptians experienced what is conventionally called religion; far from it. But
+if one wants to understand the nature of consciousness and its history starting as far back as one can (and
+ancient Egypt offers some of the world’s earliest direct sources), then ‘religion’ is an unhelpful partition to
+introduce into the continuum of knowledge; it is an obstacle and a distraction.
+Seen through the lens of human agency
+When looking at human societies, behind our imagined views of them, our extreme generalizations and
+the stories that historians compose, there lies a reality that is altogether very hard to come to terms
+with: the endless variety that generalizations obscure. A society is a system composed of all of its people,
+Introduction
+8
+in the case of ancient Egypt somewhere between one and three million of them. As people they are individuals
+and within the system they are agents, each and every one, living within a matrix of opportunities
+for interaction. Yet no two are exactly the same, they are not equal performers. If we take one of the
+simplest physical attributes, body height, and plot a graph for how it varies in a population, we will find
+that most people’s heights will group together towards the centre of the graph, but that increasingly fewer
+people will have heights which register further and further towards the taller and shorter extremes. The
+graph will shape itself like the profile of a bell. What is true for height is true for everything else, from
+assertiveness to resistance to illness, from intelligence to athletic prowess, from being motivated more by
+altruism or by selfishness (although it seems in this case that the ‘bell’ is skewed more towards the positive
+attribute of altruism). Each person is situated at a particular point on an innumerable array of curves which
+describe different human characteristics. Moreover, from population to population the norms themselves
+vary, whether they concern body height or willingness to die in a cause, and within the same population
+some degree of variation is to be expected over time and as circumstances change. In considering the
+themes of this book, an important variable is interest in complexity within the mind. In some people a
+mixture of exploration and invention creates complex explanations for the nature of their existence; in
+others less so or hardly at all.
+With each individual possessed of a unique set of attributes, people act out their lives within their
+opportunity space, at the very least with the purpose of survival and often of improvement to their lot.
+They unwittingly exchange illnesses, they communicate information, from gossip to revelations, they seek
+to emerge with satisfaction from a transaction, even if that transaction consists only of getting across a point
+of view. It is something one cannot avoid: lying low and attempting to do nothing is itself an act with
+repercussions, especially if many people choose that course. Yet that matrix of opportunities for interaction –
+normal human life for a population – is far from being an even field. People are born into family groups
+which are themselves lesser systems and which, over the years, waver between increasing their standing and
+their property as a unit and subdividing again into new families, sometimes through disputes. The process
+tends to be self- cancelling. One family’s promotion is likely to be at the expense of another’s decline so that
+a general degree of equilibrium maintains itself, but sets of circumstances arise – good fortune for those
+involved – which propel one family beyond normal expectations to a more longer- lasting prominence, perhaps
+even, in traditional societies, to the founding of a ruling house. Those few individuals in which, say, the
+urge to excel and dominate is unusually strong (Rameses II perhaps, and, of course, Akhenaten), will have a
+measurable effect on the system as a whole and might, for a brief time, drive it in a new direction or beyond
+its previous boundaries. But the system remains, albeit in an altered state, preserved through memory and
+cultural tradition. Families are only one kind of lesser system, and perhaps more influential in the past than
+now. Institutions are another kind, and ancient Egypt possessed many. Most conspicuous (to us) were the
+royal court, the many temples and, in the later centuries, the army. They take a prominent place in Chapter 6.
+But also of great importance in the lives of many, especially in the earlier periods, were patriarchal families
+based in provincial centres who at least outwardly articulated the combination of local authority and moral
+responsibility for their communities. The heads of such families often identified themselves with titles which
+we translate as ‘mayor’ or ‘nomarch’ (nome being a Greek word for a unit of provincial government).
+As the full population of the country constantly interacts, the system which they inhabit does not remain
+stable, as if it were a pot of water endlessly simmering on a low heat. It develops complex swirls of activity
+that, described at an instant of time, form the profile of that society. When followed over time, changes in
+the system’s configuration are seen to feed back and become in turn influential, to tiny or to large extents,
+producing self- reinforcing trends. We first see it in Egypt in the emergence of the state towards the end
+of the fourth millennium BC (Chapter 2). Certain patterns recur, but not in a way that is wholly predictable.
+Collective behaviour, which becomes history as the years pass, takes a non- linear course. Causality
+becomes hard to follow. If we keep to the metaphor of the simmering pot and substitute oil for the water,
+and turn up the heat, we will see the oil develop structure, in the form of visible hexagon- shaped flows
+Introduction
+9
+which disperse the heat more rapidly. Those structures have their human counterparts in changes in belief
+and behaviour that usually come to our attention only by the time that they are fully formed and their
+genesis is lost.
+How a mass of individuals interacts within a system in a way that becomes a fragment of history is
+apparent in modern stock markets in which, day by day, many thousands of transactions are made, each
+involving an element of judgement by the human actors or agents (or by computer- based algorithms
+constructed to follow their logic). Moods of confidence and uncertainty are the self- reinforcing factors. On
+seeing that many others are buying or are selling in a determined way, an individual is very likely to join
+them. In consequence of such herding behaviour, broad movements in favour of expansion alternate with
+broad movements in favour of contraction, the oddly named ‘bull’ and ‘bear’ markets. The stock market
+is measured daily in a single way, through the value of the individual stocks and of the companies whose
+credibility they represent, so it is possible to model and to simulate it with computer programs which
+incorporate the mathematics of complex non- linear systems.
+Why is this not done for contemporary society as a whole? To have an adequate working model, constantly
+updated, ought to be hugely useful to social scientists, to politicians and to people who sell things.
+In the years that have passed since I wrote the first version of this Introduction the shadowy outline of
+such a scheme of universal monitoring has begun to appear as people have voluntarily linked themselves
+to networks of electronic communication (and become subject to involuntary schemes of monitoring).
+One publicly acknowledged scheme of archiving is that of the Library of Congress of the USA, which
+announced in 2013 that approximately 170 billion public ‘tweets’ had already been collected; around
+400 million new ones are said to be created each day.16
+Through this quantity of source material (doubtless to be extended and enhanced as time passes) will
+the focus of history writing alter? Contemplating just the possibility brings home how, for the more distant
+past, history cannot be anything other than a colossal approximation, a crude puppet- show. This does not
+prevent it from being both instructive and enjoyable, but it is important not to lose sight of the fact that
+the more we choose a narrative style of history, locate heroes and villains, identify causes and generally tell
+a good story, the more we veer towards soap opera and away from contemplating the infinitely complex
+human biomass that is a society and that is, in reality, almost beyond our reach.
+Perversity and disorder
+Embedded within the myriad points of consciousness which lie at the heart of a population is the one
+factor which makes any study of human behaviour, whether it is ancient history or the modern stock
+market, so resistant to precise modelling and prediction even if we are armed with adequate data. That
+factor is perversity, the human manifestation of the tendency of the universe towards disorder. Whilst one
+direction of human endeavour is towards inhabiting a stable system – a cosy home in a harmonious community
+under a benign government, at every level a triumph of order over chaos – it stands constantly
+in tension with jagged moments or long- nurtured schemes of rejection. In most parts of the world the
+past five thousand years is a documented record of perversity and conflict. It has not been just the clash of
+armies. Fears of disorder and of alienation in a hostile world were a theme of thoughtful ancient Egyptian
+literature as far back as the early third millennium BC,17 and from time to time Egyptian society took on a
+more fragmented mode which promoted internal conflict. These are the so- called Intermediate Periods of
+ancient Egyptian history. In the end what remained of Egyptian culture was not destroyed by conquerors
+but from within. In the early centuries ad enthusiastic Egyptian adherents of Christianity rejected their
+cultural inheritance altogether (by that time a mix of the Pharaonic and the Greek) and celebrated, in tales
+to encourage the faithful, the smashing up and burning of what survived of old knowledge and places of
+cult. Indeed, what mostly characterizes the history of humanity as a whole since the Neolithic is the conscious
+search for improved systems, and their simultaneous or subsequent compromise and even rejection.
+Introduction
+10
+People are forever seeking to wreck and dismantle what others have built up or even what they themselves,
+in another mood, will approve of. Triumphs bring mockery, the tragedies of others provoke relish, and
+iconoclasm destroys what others revere. It is not a simple cleavage into good and evil, for it is perversity
+which equally undermines inhumane and unpleasant systems. And it is through dissatisfaction that innovation
+arises.
+What long- term function does contrary behaviour serve? Why are people so perverse? The creation of
+orderly regimes has been a regular aim of government since very early times, and it is very noticeable in
+ancient Egyptian sources (Chapters 4 and 5 deal with this). Why then are we not more ant- like than ants
+themselves? That many people evidently find the idea of a safe, ordered but at the same time controlled
+existence unwholesome only underlines the puzzle: why do we not like the idea of living an ordered and
+perhaps very comfortable hive- like existence?18 In the long run, it seems, complacency is an unsustainable
+condition, and hard- won stability an abhorrence. When a time of tribulation has passed, people grow
+bored with consensus and prosperity. One answer comes from within the scientific community. There is a
+view that the ‘purpose’ of all activity including that of life itself is to disperse the universe’s energy towards
+an ever greater number of possible states, in effect towards uniformity, and that complex ways do this ever
+more effectively. Life steers itself towards ever more ambitious combinations of turbulence and complexity
+which yet require at the same time the constraints of order against which to react. This is the great paradox
+of existence. Everything provokes its opposite; everything needs its opposite in order to survive.
+What is meant by energy when spoken of in the context of human societies and their history? We might
+think first of the more intensive production of food than would happen in nature and the use of natural
+resources generally; the creation of societies in which material expectations rise and population numbers
+increase so that the levels of exploitation also rise in turn; the picking on weaker neighbours, especially
+when, from the ashes of war, societies are renewed. But underlying them all is perversity itself, the wish for
+change born from dissatisfaction with the old and the attraction of something new. Over the past two thousand
+years the most powerful releasers of energy have been bodies of newly formulated knowledge which
+excite extreme deference to real and imagined figures (tyrants and gods) and which are simultaneously
+destructive and creative, which wreck an old order and seek to build a new one in its place.
+Thoughtful Egyptians, very early in their history, seem to have appreciated this endemic tension in the
+world as they saw it (it is the basis of Chapter 2). The theme of order versus chaos is embedded within
+Egyptian thinking and produced some startling written portrayals of chaos let loose in the world. Within
+their universe order and chaos faced each other. Yet even though chaos had its myriad demons, everything
+was constrained towards an underlying harmony which affected mankind (mostly Egyptian ‘mankind’)
+through an acceptance that social ordering was part of the scheme, an aspect which was transferable to
+daily life and involved the role of the king. In the end, order – the Egyptian concept of maat – prevails and
+stands in the place of unrule and so the outlook is optimistic.19 A phrase from the philosophy of science,
+‘systems standing on the edge of chaos’, well describes the Egyptian world- view. Again, emphasizing the
+need to separate the symbolic language (which we are bound to find strange) from content, this seems
+to be a reasonable working model to have at the back of one’s mind in contemplating what goes on in
+the world.
+Reduced to this absolute level history becomes a tale of increasingly flamboyant ways by means of
+which energy is dispersed. If the outcome were to be wholly destructive then that end would be thwarted.
+Sufficient of what has evolved and developed must survive to allow the play – gaming is a powerful metaphor
+here – to move on and to rise to levels of ever greater complexity. A positive outcome of some sort
+is inherent in the process. It is thus entirely normal that society as a whole should experience progress, and
+equally normal that disruption and setback should be an inescapable accompaniment. The problem for the
+historian is that the preliminaries to times of change – they are not really ‘causes’ – lie almost wholly unrecorded
+within populations whose societies serve as the playing field on which moods and ideas, opportunities
+and reactions to external factors endlessly compete for winning energy- consuming outcomes. We,
+Introduction
+11
+as observers, arrive after each particular game has reached its end and know only the result and the names
+of a few players but not the myriad details of the play itself. One can sometimes pick out what seem to be
+causes for moments of drama – the ending of the Old Kingdom in Egypt is an example
+– but these can
+only be simplifications of quickening alterations in the patterns in which energy is being dispersed by the
+population as a whole. In this case perhaps a long stability was moving towards inertia and, in a reaction
+spontaneously taking shape, in the minds of sufficient people a preference developed for a more dynamic
+kind of society, in this case one which replaced a single central government with competing local centres of
+patriarchal authority, so bringing about armed conflict (which was, in effect, a re- run of the process of state
+formation). Thus is the First Intermediate Period described, its release of energy at the local level having
+as one local consequence the expansion of some towns, a picture not in accord with past assessments of
+the time which focus on ‘collapse’.20 No matter how elegant our construction of how the events played
+out in the fine details of who did what, the underlying reason why history took its particular course is that
+the background mood was in a state to respond in a particular way; the time was right. Fantasies of violent
+change are wired into the human mind, yet most calls to arms fall flat because the time is not right, and
+most prophets and would- be rulers of the world pass their lives unheeded. A complete history would be
+one which explains why an infinite number of possible outcomes did not happen.
+Summary of content
+In the scheme I have chosen, the first part (Chapters 1– 3) serves to introduce the ancient Egyptians and
+the processes by which their culture and their state came into being. In essence it is a narrative of conflict
+resolution. The second part (Chapters 4 and 5) examines the processes at work which expressed an urge
+towards refining the degree of order that had already been achieved within society. It is about conscious
+efforts to improve the means of control. The third part (Chapters 6– 8), by drawing largely on evidence
+from the New Kingdom, explores the complex balance that was achievable, when energies were directed
+peacefully towards refashioning the state and violently towards the conquest of neighbours. Chapter 8 also
+highlights the brief rule of Pharaoh Akhenaten who was driven by a wish – perverse in its time – to think
+critically about the central model of the universe that the Egyptians had developed.
+I have wanted to convey the scope that frequently is there for more than one interpretation of the evidence,
+and what the limits are to the inferences that we can draw. And, in seeing myself as more an archaeologist
+than any other kind of enquirer, I have tried to make archaeological sources speak a little more
+loudly than they often do in books about ancient Egypt. Some will find the result idiosyncratic. But all
+should bear in mind the likelihood that survey and excavation in Egypt will continue indefinitely to bring
+in new archaeological evidence, especially evidence for the histories of local communities. By contrast,
+seeing how the rate of discovery of new written sources declined sharply during the twentieth century, the
+current stock might well represent most of what we will ever have.
+The Egyptian setting in space and time
+Egypt’s civilization developed in one of the largest arid desert areas in the world, larger than the whole of
+Europe. It was possible only because of the River Nile, which crosses an almost rainless desert from south
+to north carrying the waters of Lake Victoria nearly 7,000 km (just over 4,000 miles) to the Mediterranean
+Sea. In ancient times Egypt was just the last 1,100 km (700 miles) of this waterway, the stretch that begins
+at modern Aswan and the set of rapids known as the First Cataract. Along most of this course the Nile has
+scoured a deep and wide gorge in the desert plateau, and then built on its floor a thick layer of rich dark
+silt. It is this deep carpet of silt which has given the valley its astonishing fertility and transformed what
+might have been a geological curiosity, a version of the Grand Canyon, into a densely populated agricultural
+country.
+Introduction
+12
+The Nile valley proper ends in the vicinity of Cairo, capital of Egypt since the Arab invasion of AD 641.
+To the north the river flows out from the valley into a large bay in the coastline, now entirely choked with
+the same rich silt, to form a wide, flat delta over which the river meanders in two branches, the Damietta
+on the east and the Rosetta on the west. In earlier times the branches numbered more than two. The delta
+now represents about two- thirds of the total arable land in Egypt. The striking twofold division into valley
+and delta creates a natural boundary for administration particularly when viewed from Cairo or its ancient
+forebear, the city of Memphis. The ancient Egyptians recognized this by giving to each part a distinctive
+name and treating them as if they had once been independent kingdoms. These names are conventionally
+translated as ‘Upper Egypt’ for the valley, and ‘Lower Egypt’ for the delta.
+This is, however, an oversimplification. Upper Egypt has its own internal division in the vicinity of
+Asyut. This is apparent partly from observing the course of history, which has tended to reveal this division
+at times of internal weakness, and partly from topography. North of Asyut the west bank becomes broader,
+the western cliffs fade into a low escarpment, and the land is watered not only by the main course of the
+river but also by a winding parallel offshoot, the Bahr Yusef (Figure 0.1). Because of its distinctive character
+the term ‘Middle Egypt’ is often used for the valley north of Asyut. The delta is topographically much more
+of a unity, but nevertheless tends to be seen by its inhabitants as having an eastern and a western side, the
+former joining the vital land- bridge to Asia across the Sinai Peninsula.
+The arable lands of valley and delta today present a flat, unvarying landscape of intensively cultivated
+fields, crossed by irrigation and drainage canals, and studded with towns and villages half- hidden by groves
+of palm trees, and increasingly displaying signs of rapid growth and modernization. Concrete has replaced
+mud brick. The transition from fields to desert is still, none the less, abrupt and striking. Civilization visibly
+ends along a clear line. On the east the desert plateau above the valley gradually rises to a distant range of
+jagged hills and mountains bordering the Red Sea, while on the west it stretches for a distance of more than
+4,800 km (3,000 miles) to the Atlantic Ocean, a silent, windswept land of gravel and sand.
+The Nile receives two tributaries, the Blue Nile and the Atbara, both rising in the high, mountainous
+plateau of Ethiopia. The heavy summer rains in Ethiopia swell enormously the volume of these tributaries,
+and sweep down them a heavy load of sediment, rich in minerals. Since the middle of the nineteenth century
+ad, by a series of dams, this annual surge has increasingly been held back and controlled. Before that
+it was sufficient to flood the Egyptian valley and delta, transforming the country into a long shallow lake,
+towns and villages remaining on low islands linked by causeways (Photograph 0.1). As the current was
+checked some of the silt settled on to the land and was left behind when the waters receded in October and
+November. If crops were then sown in the thick wet mud, the moderate sunshine of autumn and winter
+would have ripened them by March or April with little or no need for further watering. Then, after the
+harvest in summer, the ground dried and cracked, enabling aeration to take place, which prevented waterlogging
+and the excessive accumulation of salt. These three seasons formed the basic divisions of the ancient
+Egyptian calendar: Akhet (inundation), Peret (growing), and Shemu (drought).
+It was an ideal natural cycle but one that human ingenuity could still do much to improve. Earthen
+banks could be raised to enclose large basins where the farmer could allow the waters to remain for a
+period before releasing them back into the river. Water could be raised mechanically to irrigate areas above
+the normal reach of the flood, or in summer, when the river was at its lowest, to irrigate the fields for a
+second crop or to maintain kitchen gardens through the year. Beyond this the waters of the Nile could
+be spread further and more efficiently by the creation of a system of irrigation and drainage canals, controlled
+by locks, and ultimately, as has been the case since the opening of the High Dam at Aswan in 1970,
+by damming back the flood and letting it out gradually so that the river level remains constant and never
+overflows its banks. In building up a picture of ancient society it is necessary to consider how far along this
+path of improvement the Egyptians went.
+The answer appears to be: not very far. The need was not there. The idea of using the fertile land to
+grow cash crops to be sold for profit abroad (as developed in the nineteenth century AD) was far from
+Figure 0.1 Map of the northern Nile valley marking places mentioned in the text.
+Introduction
+14
+the ancient way of thinking. Population grew only slowly and by the time of the late New Kingdom had
+probably not exceeded 3,000,000, a very modest total by today’s standards (official statements currently put
+Egypt’s population increase at 1,000,000 every six months). When we examine the ancient sources they
+suggest a very elementary picture of land management. The state remained very interested in the annual
+yield of the land for the purpose of collecting rents and taxes: this much is clear from written sources. But
+the same sources say little or nothing about irrigation. The implication is that this was a local matter outside
+government control. It suited everyone concerned to maintain the banks around the basins, and the annual
+filling of these by the flood left sufficient moisture in the soil for a single grain crop. There was a professional
+interest in the maximum height of each year’s inundation. Records of this were carved on suitable
+markers: Nilometers or temple quays. But there is no evidence that the figures were used in calculations
+to assess crop yields, although people must have been very well aware of the consequences of flood levels
+either much higher or much lower than the average.
+Modern irrigation in Egypt involves not only regulating the flow and availability of water from the
+Nile via networks of canals, but also the use of machines for lifting it up to ground level. Nowadays the
+machines are pumps driven by electricity or by fuel oil. The ancient Egyptians had only the shaduf, a
+device of simple construction, a pivoted, horizontal pole with a counterweight at one end and a bucket
+or its equivalent suspended at the other (Figure 0.2). It is shown in tomb scenes from the late Eighteenth
+Dynasty (c. 1350 BC) onwards, but even then only in scenes of men watering gardens. In earlier versions,
+Photograph 0.1 View of the city of Asyut at the height of the inundation, photographed early in the twentieth
+century. From L. Borchardt and H. Ricke, Egypt: Architecture, Landscape, Life of the People, London, Orbis Terrarum,
+1930, 120.
+Figure 0.2 Cultivating perennial gardens and orchards: the improved New Kingdom method, using a shaduf. The top
+scene shows a simple shaduf being used to irrigate a garden beside a shrine. The man (his dog behind him) stands on
+the bank of a canal and pulls down the vertical pole to dip the suspended bucket into the water. The long pivoting
+beam of the shaduf rests on a tall brick pillar, and has a rounded counterweight of mud at its opposite end. The bucket
+of a second shaduf is being emptied at the right- hand edge of the picture. Tomb of Ipy (no. 217 at Thebes), c. 1250 BC,
+after Davies, Two Ramesside Tombs, Pl. XXIX. In the bottom scene, a more complicated shaduf is shown in operation.
+It stands beside a well, at the right- hand edge of the picture, over which projects a platform for the operator. This
+man is emptying the bucket into a raised trough (presumably of wood) which passes through the brick shaduf- pillar
+and runs down to irrigate an orchard. Tomb of Neferhetep (no. 49 at Thebes), c. 1325 BC, after N. de G. Davies, The
+Tomb of Nefer- ḥotep at Thebes, New York, MMA, 1933, Pl. XLVI.
+Introduction
+16
+from before this time, the method was even simpler. We see water brought to gardens in pairs of pottery jars
+slung from yokes on the shoulders of men (Figure 0.3). In such scenes we are clearly dealing not with the
+irrigation of farmland for the production of a main crop of cereal or flax, but with the watering of only a
+limited amount of land out of reach of the flood, and confined to vegetable- and flower- beds and orchards
+maintained all the year round. This evidence serves to reinforce the argument that main- crop cereal agriculture
+was a matter of a single annual crop dependent upon moisture left in the soil after the inundation.
+The importance of appreciating this is not just that it provides the background picture to life in ancient
+Egypt. It has sometimes been thought that organized society – civilization – in Egypt and elsewhere
+arose from the need for collective effort to control rivers to allow agriculture to develop. In the case of
+ancient Egypt one can state that this was not so. The origin of civilization is not to be sought in something
+so simple (a consideration of this subject is at the heart of Chapter 2). It is true that modern Egypt is
+maintained by an elaborate irrigation system. This is necessary, however, only because of the development
+of agriculture as a business, and on account of the massive increase in population that has occurred in the
+past two centuries.
+Modern Egypt is an Arabic- speaking country, predominantly Islamic in culture, and secular in its civil
+law code and most institutions, the product of 1,300 years of Arab rule and influence since the first Arab
+invasion of AD 641, modified by the country’s Mediterranean position. Even by the time of the Arab conquest,
+however, the ancient Egypt of the Pharaohs lay far in the past. The conquest of Egypt by the Iranian
+(Persian) Great King Cambyses (525– 522 BC) brought Egypt into the multicultural Achaemenid empire for
+a century during which Aramaic became the language of senior administration. The conquest by Alexander
+the Great in 332 BC initiated three centuries of rule by Macedonian kings (the Ptolemies), who managed
+to live in Greek style in Alexandria whilst still posing as Pharaohs for the benefit of the more traditionally
+minded parts of the country. The last of the line was Queen Cleopatra VII (the Cleopatra) through
+whose policies Egypt became, in 30 BC, a province of the Roman empire. We can formally recognize the
+end of ancient Egypt in the reign of the Roman emperor Constantine (AD 306– 337). His conversion to
+Christianity and his support of the organizational role of the church in society had a profound effect on
+Egypt, which became a fervently Christian country. The Christian legacy in modern Egypt is the Coptic
+Church. Its language, no longer spoken but preserved in liturgy and in scriptural translations, is the language
+of ancient Egypt shorn of hieroglyphic writing (and conveying a very different message).
+Figure 0.3 Cultivating perennial gardens: the original method. Water is carried to the square growing- beds in pairs
+of pottery jars suspended on wooden yokes. On the right a man kneels planting a lettuce in a hole made with a
+stick. Tomb of Mereruka, Saqqara, c. 2300 BC, after P. Duell, The Mastaba of Mereruka I, Chicago, IL, UCP, 1938, Pl. 21
+(redrawn by B. Garfi).
+Introduction
+17
+Infusions of outside culture – primarily Hellenistic Greek, Christian and Arab – effectively destroyed
+the indigenous Nile valley culture of ancient times, sometimes by a process of gradual modification, sometimes
+by deliberate attack. Modern knowledge of ancient Egypt is, therefore, the result of reconstruction
+by scholars. It has two main sources: the study of ancient evidence revealed by archaeology, and (before
+the decipherment of hieroglyphs in AD 1822) the careful reading of the accounts of classical times, some
+of which were made by Greek visitors during the last centuries of Pharaonic rule, and some written from
+within the country. In the early days of Egyptology one of the latter provided a ready- made framework of
+history and chronology, which is still universally accepted. It is a set of summaries of a now- lost History
+of Egypt written in Greek in the third century BC by an Egyptian priest, Manetho. Despite inaccuracies
+introduced by copyists, Manetho’s access to temple archives gave his work a degree of detail and authority
+which has stood the test of time. In particular, his division of Egyptian history into 30 dynasties, or ruling
+families (to which a thirty-first was subsequently added), still provides the basic framework of history. For
+convenience, however, modern scholars have grouped Manetho’s dynasties into broader units, as follows
+(with modern date estimates and an occasional hiatus or overlap amongst the ruling groups):
+Early Dynastic Period (Dyns 1– 2) c. 3085– 2584 BC
+(or Archaic Period)
+Old Kingdom (Dyns 3– 6) 2584– 2117 BC
+First Intermediate Period (Dyns 7/ 8– mid- 11) 2117– 2040 BC
+Middle Kingdom (Dyns mid- 11– 13/ 14) 2040– 1650 BC
+Second Intermediate Period (Dyns 15– 17) 1650– 1549 BC
+(includes the Palestinian ‘Hyksos’ Dynasty in the north of Egypt)
+New Kingdom (Dyns 18– 20) 1549– 1069 Bc
+Third Intermediate Period (Dyns 21– 24) 1064– 721 BC
+Late Period 721– 332 BC
+Kushite (Sudanese)/ Assyrian rule (Dyn. 25) 752– 656 BC
+Saite Period (Dyn. 26) 664– 525 Bc
+First Persian Period (Dyn. 27) 525– 405 BC
+Local dynasties (Dyns 28– 30) 404– 342 BC
+Second Persian Period (‘Dyn. 31’) 342– 332 BC
+Conquest by Alexander the Great 332 BC
+Ptolemaic Period 332– 30 BC
+Death of Queen Cleopatra VII 30 BC
+Roman Period 30 BC–AD 395
+Egypt ruled from Byzantium (Constantinople/ Istanbul) AD 395– 641
+Arab conquest of Egypt AD 641
+Before the First Dynasty came a period of Neolithic/ Chalcolithic culture often called the ‘Predynastic’.
+For the Predynastic Period of Upper Egypt more than one set of terms has been developed for the
+succession of individual cultural phases. An older scheme ran from the Badarian, through the Amratian to
+the Gerzean and then, via a somewhat ambiguous transition, to the First Dynasty. Subsequently Amratian
+and Gerzean were generally replaced by the terms Nagada I and Nagada II, which still left the transitional
+period undefined. A redivision was proposed some years ago which recognized three Nagada phases: I, II
+and III (III overlapping with the First Dynasty), further subdivided by the use of capital letters (e.g. IIC),
+and this has become the standard terminology (with the retention of Badarian). They are, however, phases
+of culture, defined by styles of pottery and so on. It is clear from a political point of view that, with the
+last century or two of the Predynastic Period, we are dealing with ‘kings’, and a useful general term for
+them is ‘Dynasty 0’.
+Introduction
+18
+For absolute dates from the end of the Second Dynasty onwards I have used the chronological table
+in A. Dodson and D. Hilton, The Complete Royal Families of Ancient Egypt, London, T&H, 2004, 287– 94.
+Revised radiocarbon dates for the Predynastic Period and for the kings of the First Dynasty will be found
+in M. Dee, D. Wengrow, A.J. Shortland, A. Stevenson, F. Brock, L. Girdland Flink and C. Bronk Ramsey,
+Proceedings of the Royal Society A (4 September 2013), http:// rspa.royalsocietypublishing.org/ content/ 469/
+2159/ 20130395; M.W. Dee, D. Wengrow, A. Shortland, A. Stevenson, F. Brock and C. Bronk Ramsey,
+JAS 46 (2014), 319– 23. These dates are a result of statistical modelling of data from fresh samples newly
+measured, the samples chosen from transition points between successive predynastic phases, followed by
+tight sequences from individual reigns of the First Dynasty. The ‘peaks’ of probability are as follows:
+Start of the Badarian 4350 BC
+Transition to Nagada I 3750 BC
+Transition between Nagada IB and IC 3650 BC
+Transition between Nagada IIB and IIC 3450 BC
+Transition between Nagada IID and IIIA 3325 BC
+Beginning of First Dynasty 3085 BC
+Beginning of Second Dynasty 2850/ 75 BC
+Notes
+1 The words are those of US politician Pat Buchanan, quoted in www.bbc.com/ news/ world- 35152027, dated 26
+December 2015.
+2 L. Keller and É. Gordon, The Lives of Ants, Oxford, OUP, 2009, 56– 9.
+3 I have found Benoît Dubreuil, Human Evolution and the Origins of Hierarchies: the State of Nature, New York, CUP,
+2010 to be useful in reflecting on this topic; also the review by Catherine Driscoll, Biology & Philosophy 27 (2012),
+125– 35 = http:// link.springer.com/ article/ 10.1007/ s10539- 011- 9266- 2.
+4 Bloch, ‘Religion’ places great emphasis on this.
+5 N. Humphrey, Soul Dust: the Magic of Consciousness, London, Quercus, 2011, p. 71.
+6 O.E. Lowenstein, ‘The Pre- Socratics, Lucretius, and modern science.’ In D.R. Dudley, ed., Lucretius, London,
+Routledge & Kegan Paul, 1965, 1– 17, p. 3.
+7 As a definition (the wording is mine) I prefer it to one cited by Russell Powell and Steve Clarke, ‘Religion as an
+evolutionary byproduct: a critique of the Standard Model.’ British Journal for the Philosophy of Science 63 (2012),
+457– 86, p. 458, n. 1: ‘Cognitive scientists of religion often refer to “minimally counterintuitive agents” to describe
+postulated beings that would be described more casually as “supernatural”’ (p. 458, n. 1). I thank Hans Barnard for
+this reference. ‘Metapersons’ is another suggestion.
+8 Brent Nongbri, Before Religion: a History of a Modern Concept, New Haven, CT, and London, YUP, 2015 treats this
+theme in some detail. T. Insoll, ed., Archaeology and World Religion, London and New York, Routledge, 2001 is one
+study that takes it for granted that the subject is viable, though admitting (pp. 3– 10) the near- impossibility of
+finding a common theoretical framework.
+9 The subject continues to attract scholarly interest, e.g. J.K. Hoffmeier, Akhenaten, His Religion and the Origins of
+Monotheism, Oxford and New York, OUP, 2014; J. Assmann, From Akhenaten to Moses: Ancient Egypt and Religious
+Change, Cairo, AUC Press, 2014; B. Pongratz- Leisten, ed., Reconsidering the Concept of Revolutionary Monotheism,
+Winona Lake, IN, Eisenbrauns, 2011.
+10 Richard Jenkyns, ‘Introduction’, in Lucretius: the Nature of Things, translated and with notes by A.E. Stallings; introduction
+by Richard Jenkyns. Penguin Classics. Penguin Books, London, 2007, vii– xxiv, p. xii; see also S. Gillespie
+and P. Hardie, eds, The Cambridge Companion to Lucretius, Cambridge, CUP, 2007.
+11 In The Swerve: How the Renaissance Began, New York, Norton, 2011; London, Vintage, 2012, S. Greenblatt narrates
+how a Papal secretary, Poggio Bracciolini, discovered a manuscript copy in a monastery probably in central
+Germany in 1417, copied it and began the process by which it eventually became part of the mainstream of modern
+knowledge.
+12 A city in Middle Egypt (called by the Greeks Hermopolis) took its name from this Eight configuration, the name
+for which was Khemnu, which survives in the name of the modern village on the site, El- Ashmunein. The sources
+are very brief, without significant narrative: Faulkner, Coffin Texts I, 77– 87, Spells 76, 79 and 80; Allen, Genesis in
+Introduction
+19
+Egypt, 18– 21; F. Dunand and C. Zivie- Coche, Gods and Men in Egypt: 3000 bce to 395 ce, Ithaca, NY, and London,
+CoUP, 2004, 49– 50; R.T. Rundle Clarke, Myth and Symbol in Ancient Egypt, London, T&H, 1959, 54– 5.
+13 I owe this last phrasing and idea to Corinne Duhig.
+14 Bloch, ‘Religion’, 196, who also comments (p. 188) ‘anthropologists have, after countless fruitless attempts, found it
+impossible to usefully and convincingly cross- culturally isolate or define a distinct phenomenon that can analytically
+be labelled “religion” ’; also M. Bloch, ‘Is there religion at Çatalhöyük ... or are there just houses?’ In I. Hodder,
+ed., Religion in the Emergence of Civilization: Çatalhöyük as a Case Study, Cambridge, CUP, 2010, 146– 62. I also wrote
+Kemp, All that Matters with the same convention in mind.
+15 C. Humphrey and J. Laidlaw, The Archetypal Actions of Ritual: a Theory of Ritual Illustrated by the Jain Rite of Worship,
+Oxford, OUP, 1994, reprinted in 2004, 66, quoting J. Skorupski, 1976. Symbol and Theory: a Philosophical Study of
+Theories of Religion in Social Anthropology, Cambridge, CUP, 1976, 131. ‘Ritual’, when used to describe the behaviour
+of people living a traditional way of life, is often attached to the word ‘dancing’. But is there such a thing as nonritual
+dancing?
+16 See http:// blogs.loc.gov/ loc/ 2013/ 01/ update- on- the- twitter- archive- at- the- library- of- congress/ , http:// firstmonday.
+org/ ojs/ index.php/ fm/ article/ view/ 5619/ 4653 and www.politico.com/ story/ 2015/ 07/ library- of- congress-twitterarchive-
+119698.html.
+17 Parkinson, Poetry and Culture, Ch. 9.
+18 Even ant colonies are not quite what they seem. Research reveals that social insects, bees and ants alike, are latently
+anarchic but are for the most part held in check by policing strategies which are genetically controlled: L. Spinney,
+‘Anarchy in the hive!’ New Scientist 15 January 2005, 42– 5; http:// bio.kuleuven.be/ ento/ pdfs/ spinneynewsci2005_
+anarchyinthehive.pdf?id=mg18524821.900, articles prompted by Keller and Gordon, The Lives of Ants. Ch. 25,
+‘Caste Struggles’, briefly covers the topic of ‘police workers’.
+19 The idea that optimistic outcomes underlie human behavior as part of the natural order and possibly show up in
+Egyptian calendars of lucky and unlucky days is explored in B.J. Kemp and P.J. Rose, CAJ 1 (1991), 103– 29.
+20 Moeller, Urbanism, 219– 46.
+
