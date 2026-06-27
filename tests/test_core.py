@@ -102,6 +102,44 @@ class CoreTests(unittest.TestCase):
         self.assertFalse(engine.heavy_rag_available)
         self.assertTrue(engine.lightweight_mode)
 
+    def test_integrated_chatbot_transcription_sends_selected_language(self):
+        engine = MuseumChatbotEngine(ROOT / "NLP1.1")
+        response = type("Response", (), {
+            "status_code": 200,
+            "json": lambda self: {"text": "Who is King Khufu?"},
+            "text": "ok",
+        })()
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as wav_file:
+            wav_path = Path(wav_file.name)
+        try:
+            with patch.dict("os.environ", {"GROQ_API_KEY": "test-key"}, clear=False), \
+                 patch("requests.post", return_value=response) as post:
+                recognized = engine._transcribe_audio(wav_path, "en")
+        finally:
+            wav_path.unlink(missing_ok=True)
+        self.assertEqual(recognized, "Who is King Khufu?")
+        self.assertEqual(post.call_args.kwargs["data"]["language"], "en")
+        self.assertIn("/audio/transcriptions", post.call_args.args[0])
+
+    def test_integrated_chatbot_transcription_sends_arabic_language(self):
+        engine = MuseumChatbotEngine(ROOT / "NLP1.1")
+        response = type("Response", (), {
+            "status_code": 200,
+            "json": lambda self: {"text": "من هو الملك خوفو؟"},
+            "text": "ok",
+        })()
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as wav_file:
+            wav_path = Path(wav_file.name)
+        try:
+            with patch.dict("os.environ", {"GROQ_API_KEY": "test-key"}, clear=False), \
+                 patch("requests.post", return_value=response) as post:
+                recognized = engine._transcribe_audio(wav_path, "ar")
+        finally:
+            wav_path.unlink(missing_ok=True)
+        self.assertEqual(recognized, "من هو الملك خوفو؟")
+        self.assertEqual(post.call_args.kwargs["data"]["language"], "ar")
+        self.assertIn("/audio/transcriptions", post.call_args.args[0])
+
     def test_lightweight_rag_reads_txt_and_retrieves_without_heavy_dependencies(self):
         with tempfile.TemporaryDirectory() as directory:
             data_dir = Path(directory) / "Data"

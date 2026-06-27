@@ -189,9 +189,9 @@ def test_integrated_chatbot_typed(language: str, question: str | None, speak_ans
 
 def test_integrated_chatbot_voice(language: str, mic_device_index: int | None) -> None:
     engine = MuseumChatbotEngine(Path(__file__).resolve().parent / "NLP1.1")
-    safe_print(f"Selected language: {language}")
+    safe_print(f"Selected UI language: {language}")
     recognized = engine.listen(language, mic_device_index)
-    safe_print(f"Recognized question: {recognized or ''}")
+    safe_print(f"Recognized question before translation: {recognized or ''}")
     if not recognized:
         safe_print("No recognized voice question. Typed input in the UI will still work.")
         safe_print(CHATBOT_DEPENDENCY_HELP)

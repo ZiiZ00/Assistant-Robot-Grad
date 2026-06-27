@@ -15,6 +15,11 @@ from logging_utils import safe_print
 from speech import SAMPLE_RATE, record_microphone
 
 
+def normalize_stt_language(language: str) -> str:
+    normalized = str(language or "en").strip().lower()
+    return "ar" if normalized == "ar" else "en"
+
+
 class MuseumChatbotEngine:
     def __init__(self, chatbot_root: str | Path, *, enabled: bool = True) -> None:
         self.chatbot_root = Path(chatbot_root)
@@ -66,8 +71,10 @@ class MuseumChatbotEngine:
         if not self.available:
             safe_print("Using integrated chatbot STT failed: chatbot folder unavailable")
             return None
+        stt_language = normalize_stt_language(language)
         safe_print("Using integrated chatbot STT")
-        safe_print(f"Selected language: {language}")
+        safe_print(f"Selected UI language: {stt_language}")
+        safe_print(f"Selected STT language: {stt_language}")
         safe_print("Recording started")
         wav_path: Path | None = None
         try:
@@ -76,10 +83,10 @@ class MuseumChatbotEngine:
             result = record_microphone(seconds=5.0, mic_device_index=mic_device_index, output_wav=wav_path)
             safe_print("Recording stopped")
             if not result.get("pcm"):
-                safe_print("Recognized question: ")
+                safe_print("Recognized question before translation: ")
                 return None
-            recognized = self._transcribe_audio(wav_path)
-            safe_print(f"Recognized question: {recognized}")
+            recognized = self._transcribe_audio(wav_path, stt_language)
+            safe_print(f"Recognized question before translation: {recognized}")
             return recognized.strip() or None
         except Exception as exc:
             safe_print("Recording stopped")
@@ -246,7 +253,8 @@ class MuseumChatbotEngine:
             return False
         return True
 
-    def _transcribe_audio(self, wav_path: Path) -> str:
+    def _transcribe_audio(self, wav_path: Path, language: str) -> str:
+        stt_language = normalize_stt_language(language)
         api_key = get_env_first("GROQ_API_KEY")
         if not api_key:
             safe_print("GROQ_API_KEY is missing. Set it before using integrated STT.")
@@ -257,10 +265,12 @@ class MuseumChatbotEngine:
             safe_print(f"requests import failed: {exc}")
             raise
         url = "https://api.groq.com/openai/v1/audio/transcriptions"
+        safe_print(f"Groq Whisper transcription language: {stt_language}")
+        safe_print("Groq Whisper endpoint: transcriptions")
         headers = {"Authorization": f"Bearer {api_key}"}
         with wav_path.open("rb") as audio_file:
             files = {"file": (str(wav_path), audio_file, "audio/wav")}
-            data = {"model": "whisper-large-v3"}
+            data = {"model": "whisper-large-v3", "language": stt_language}
             response = requests.post(url, headers=headers, files=files, data=data, timeout=60)
         safe_print(f"Transcription response status: {response.status_code}")
         if response.status_code != 200:

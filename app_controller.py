@@ -24,7 +24,7 @@ from speech import TextToSpeech
 class AppController:
     def get_tts_language(self) -> str:
         """
-        Return the current GUI language as the code used by Hugging Face TTS.
+        Return the current GUI language as the code used by centralized TTS.
         """
         lang = str(getattr(self, "language", "ar")).lower().strip()
 
@@ -94,7 +94,7 @@ class AppController:
                 if self._tts_process is process:
                     self._tts_process = None
 
-    def _speak_with_hf_tts(self, text: str, done: Callable[[], None] | None = None) -> None:
+    def _speak_with_tts(self, text: str, done: Callable[[], None] | None = None) -> None:
         """
         Speak without blocking Tkinter and call done() on the UI thread.
         """
@@ -277,7 +277,7 @@ class AppController:
         current_screen = self._screen_id
 
         safe_print("Artifact speech using local TTS fallback stack")
-        self._speak_with_hf_tts(
+        self._speak_with_tts(
             artifact["explanation"][self.language],
             lambda: self._explanation_done(current_screen)
         )
@@ -408,7 +408,7 @@ class AppController:
             entry.focus_set()
             return
 
-        safe_print(f"Recognized question: {question}")
+        safe_print(f"Recognized question before translation: {question}")
         self.answer_question(question)
 
     def answer_question(self, question: str) -> None:
@@ -459,7 +459,7 @@ class AppController:
             self.run_on_ui(lambda: self._answer_done(screen_id))
 
         safe_print("Chatbot answer speech using local TTS fallback stack")
-        self._speak_with_hf_tts(answer, done)
+        self._speak_with_tts(answer, done)
 
     def _answer_done(self, screen_id: int) -> None:
         if screen_id != self._screen_id:

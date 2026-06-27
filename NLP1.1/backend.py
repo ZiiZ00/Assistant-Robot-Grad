@@ -40,19 +40,26 @@ def convert_to_wav(input_path):
     subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     return output_path
 
-# Transcribe audio using Groq's Whisper API (Free!) - Auto-detect language
-def transcribe_audio(file_path):
+def normalize_stt_language(language):
+    normalized = str(language or "en").strip().lower()
+    return "ar" if normalized == "ar" else "en"
+
+# Transcribe audio using Groq's Whisper API (Free!) with the selected language.
+def transcribe_audio(file_path, language):
+    stt_language = normalize_stt_language(language)
     url = "https://api.groq.com/openai/v1/audio/transcriptions"
     headers = {"Authorization": f"Bearer {GROQ_API_KEY}"}
+    print(f"Selected STT language: {stt_language}")
+    print(f"Groq Whisper transcription language: {stt_language}")
+    print("Groq Whisper endpoint: transcriptions")
     with open(file_path, "rb") as f:
         files = {"file": (file_path, f, "audio/wav")}
-        # Remove language parameter to auto-detect
-        data = {"model": "whisper-large-v3"}
+        data = {"model": "whisper-large-v3", "language": stt_language}
         response = requests.post(url, headers=headers, files=files, data=data)
         print(f"Transcription response status: {response.status_code}")
         if response.status_code == 200:
             result = response.json()
-            print(f"Transcribed text: {result.get('text', '')}")
+            print(f"Recognized question before translation: {result.get('text', '')}")
             return result.get("text", "")
         else:
             print(f"ERROR: Transcription failed - {response.text}")
@@ -227,9 +234,12 @@ def ask():
         wav_path = convert_to_wav(webm_path)
         print(f"Converted to wav: {wav_path}")
 
-        # Transcribe audio to text
-        user_text = transcribe_audio(wav_path)
-        print(f"Transcribed text: {user_text}")
+        selected_language = normalize_stt_language(request.form.get("language") or request.args.get("language") or "ar")
+        print(f"Selected UI language: {selected_language}")
+
+        # Transcribe audio to text in the selected UI language.
+        user_text = transcribe_audio(wav_path, selected_language)
+        print(f"Recognized question before translation: {user_text}")
 
         if not user_text.strip():
             return jsonify({"error": "No text detected from audio"}), 400
