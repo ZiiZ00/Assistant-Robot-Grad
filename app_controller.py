@@ -289,6 +289,17 @@ class AppController:
         if self.face:
             self.face.set_speaking(False)
 
+        self.start_question_loop()
+
+    def _current_artifact_id(self) -> str:
+        if not self.route:
+            return ""
+        return self.route[self.point_index]
+
+    def start_question_loop(self) -> None:
+        artifact_id = self._current_artifact_id()
+        safe_print("Question loop started")
+        safe_print(f"Current artifact ID during question loop: {artifact_id}")
         self.show_qa_prompt()
 
     def show_qa_prompt(self) -> None:
@@ -417,8 +428,8 @@ class AppController:
 
         safe_print(f"Chatbot question: {question}")
 
-        artifact_id = self.route[self.point_index]
-        safe_print(f"Current artifact: {artifact_id}")
+        artifact_id = self._current_artifact_id()
+        safe_print(f"Current artifact ID during question loop: {artifact_id}")
 
         frame = self._new_screen()
 
@@ -468,12 +479,33 @@ class AppController:
         if self.face:
             self.face.set_speaking(False)
 
+        controls = tk.Frame(self.frame, bg=ui.BG)
+        controls.pack(pady=6)
+
         ui.button(
-            self.frame,
-            ui.TEXT[self.language]["continue"],
-            self.finish_qa,
-            width=12
-        ).pack(pady=5)
+            controls,
+            ui.TEXT[self.language]["ask_another_question"],
+            self.ask_another_question,
+            width=20
+        ).pack(side="left", padx=10)
+
+        ui.button(
+            controls,
+            ui.TEXT[self.language]["continue_tour"],
+            self.continue_tour_from_question_loop,
+            width=16
+        ).pack(side="left", padx=10)
+
+    def ask_another_question(self) -> None:
+        safe_print("Visitor selected Ask another question")
+        safe_print(f"Current artifact ID during question loop: {self._current_artifact_id()}")
+        self.show_qa_prompt()
+
+    def continue_tour_from_question_loop(self) -> None:
+        safe_print("Visitor selected Continue tour")
+        safe_print(f"Current artifact ID during question loop: {self._current_artifact_id()}")
+        safe_print("Question loop ended")
+        self.finish_qa()
 
     def finish_qa(self) -> None:
         if self.point_index >= len(self.route) - 1:

@@ -182,6 +182,14 @@ class CoreTests(unittest.TestCase):
         self.assertTrue(args.test_stt_once)
         self.assertEqual(args.stt_language, "ar")
 
+    def test_question_loop_labels_are_bilingual(self):
+        self.assertEqual(TEXT["en"]["question"], "Do you have a question?")
+        self.assertEqual(TEXT["ar"]["question"], "هل لديك سؤال؟")
+        self.assertEqual(TEXT["en"]["ask_another_question"], "Ask another question")
+        self.assertEqual(TEXT["ar"]["ask_another_question"], "اسأل سؤال آخر")
+        self.assertEqual(TEXT["en"]["continue_tour"], "Continue tour")
+        self.assertEqual(TEXT["ar"]["continue_tour"], "استكمال الجولة")
+
     def test_integrated_chatbot_cli_flags(self):
         with patch("sys.argv", ["main.py", "--test-integrated-chatbot-env"]):
             args = parse_args()
