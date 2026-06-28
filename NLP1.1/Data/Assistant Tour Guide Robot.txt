@@ -1,0 +1,75 @@
+Project Name: Assistant Tour Guide Robot
+
+Project Overview:
+The project is called Assistant Tour Guide Robot. It is a smart robotic system designed to help visitors inside museums by providing guided tours, artifact explanations, and interactive question answering.
+
+Project Goal:
+The main goal of the project is to create an assistant robot that can guide museum visitors, explain historical artifacts, answer visitor questions, and improve the museum experience using artificial intelligence, speech interaction, and a user-friendly touch screen interface.
+
+Main Idea:
+The robot works as an interactive museum tour guide. Visitors can choose the language and tour type from the screen. The robot then explains selected artifacts using voice output and allows visitors to ask questions using speech or typed input. The system can use local museum data and an AI model to generate suitable answers.
+
+Project Purpose:
+The purpose of the Assistant Tour Guide Robot is to make museum tours more interactive, accessible, and engaging. It supports visitors by giving information in a clear and simple way, helping them learn about artifacts without always needing a human guide.
+
+Short Description:
+The Assistant Tour Guide Robot is a smart bilingual museum guide robot that combines a graphical user interface, speech recognition, text-to-speech, artificial intelligence, and robot navigation to support visitors during museum tours.
+
+Question: What is the name of the project?
+Answer: The project is called Assistant Tour Guide Robot.
+
+Question: What is the goal of the project?
+Answer: The goal of the project is to help museum visitors by guiding them, explaining artifacts, and answering their questions using artificial intelligence and speech interaction.
+
+Question: What does the Assistant Tour Guide Robot do?
+Answer: It acts as an interactive museum guide. It can explain artifacts, answer visitor questions, and support Arabic and English interaction through a touch screen and voice system.
+
+Question: Why was this project developed?
+Answer: This project was developed to improve the museum visitor experience by making tours more interactive, informative, and easier to access.
+
+Question: What technologies are used in the project?
+Answer: The project uses a graphical user interface, speech recognition, text-to-speech, local museum data, artificial intelligence, Raspberry Pi, Arduino, sensors, and robot control systems.
+
+Question: Is the robot only for one language?
+Answer: No, the robot supports both Arabic and English to make the tour easier for different visitors.
+
+Question: What is the project about?
+Answer: The project is about designing and implementing an intelligent assistant tour guide robot that can interact with museum visitors and provide information about artifacts.
+
+Question: Who is the supervisor of this project 
+Answer: Assoc.prof.Dr. Mohammad Ali 
+ 
+اسم المشروع: Assistant Tour Guide Robot
+
+نبذة عن المشروع:
+مشروع Assistant Tour Guide Robot هو روبوت ذكي تم تصميمه لمساعدة الزوار داخل المتحف من خلال تقديم جولات إرشادية وشرح القطع الأثرية والإجابة عن أسئلة الزوار بطريقة تفاعلية.
+
+هدف المشروع:
+الهدف الرئيسي من المشروع هو تصميم روبوت مساعد يعمل كمرشد سياحي داخل المتحف، يستطيع شرح القطع الأثرية، الإجابة عن أسئلة الزوار، وتحسين تجربة الزيارة باستخدام الذكاء الاصطناعي والتفاعل الصوتي وواجهة لمس سهلة الاستخدام.
+
+فكرة المشروع:
+تقوم فكرة المشروع على استخدام روبوت تفاعلي يساعد الزائر أثناء الجولة داخل المتحف. يستطيع الزائر اختيار اللغة ونوع الجولة من الشاشة، ثم يقوم الروبوت بشرح القطع الأثرية بالصوت، كما يمكنه استقبال أسئلة الزائر والرد عليها اعتمادًا على البيانات المحلية ونموذج ذكاء اصطناعي.
+
+الغرض من المشروع:
+الغرض من Assistant Tour Guide Robot هو جعل تجربة زيارة المتحف أكثر تفاعلية وسهولة، حيث يساعد الزوار على فهم المعلومات التاريخية بطريقة واضحة وبسيطة دون الحاجة الدائمة إلى مرشد بشري.
+
+وصف مختصر:
+Assistant Tour Guide Robot هو روبوت مرشد متحفي ثنائي اللغة يجمع بين واجهة استخدام رسومية، التعرف على الكلام، تحويل النص إلى صوت، الذكاء الاصطناعي، ونظام تحكم روبوتي لمساعدة الزوار أثناء الجولة.
+
+Question: ما اسم المشروع؟
+Answer: اسم المشروع هو Assistant Tour Guide Robot.
+
+Question: ما هدف المشروع؟
+Answer: هدف المشروع هو مساعدة زوار المتحف من خلال إرشادهم، شرح القطع الأثرية، والإجابة عن أسئلتهم باستخدام الذكاء الاصطناعي والتفاعل الصوتي.
+
+Question: ماذا يفعل الروبوت؟
+Answer: يعمل الروبوت كمرشد متحفي تفاعلي، حيث يستطيع شرح القطع الأثرية، الإجابة عن أسئلة الزوار، ودعم التفاعل باللغتين العربية والإنجليزية.
+
+Question: لماذا تم تنفيذ هذا المشروع؟
+Answer: تم تنفيذ المشروع لتحسين تجربة زيارة المتحف وجعلها أكثر تفاعلية وسهولة وفائدة للزوار.
+
+Question: ما فكرة المشروع؟
+Answer: فكرة المشروع هي تصميم وتنفيذ روبوت مساعد يعمل كمرشد سياحي داخل المتحف ويتفاعل مع الزوار من خلال الشاشة والصوت والذكاء الاصطناعي.
+
+Question: هل يدعم الروبوت اللغة العربية والإنجليزية؟
+Answer: نعم، يدعم الروبوت اللغتين العربية والإنجليزية حتى يكون مناسبًا لعدد أكبر من الزوار.
